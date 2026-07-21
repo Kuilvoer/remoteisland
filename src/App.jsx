@@ -8,7 +8,7 @@ import { FavoritesProvider, useFavorites } from '@/context/FavoritesContext';
 import { ListViewAtlas, ListViewSplit, ListViewAccordion, ListViewBento } from '@/components/ListViewVariations';
 
 // Wrapper component to handle swipe gestures manually
-const SwipeableMain = ({ children, viewMode, activeDetailIsland, isGlobeView, handleNext, handlePrev }) => {
+const SwipeableMain = ({ children, viewMode, activeDetailIsland, isGlobeView, handleNext, handlePrev, className }) => {
   const touchStart = useRef(null);
 
   const onTouchStart = (e) => {
@@ -28,23 +28,11 @@ const SwipeableMain = ({ children, viewMode, activeDetailIsland, isGlobeView, ha
     }
     touchStart.current = null;
   };
-
-  
-  const handleScroll = (e) => {
-    const currentScrollY = e.target.scrollTop;
-    if (currentScrollY > lastScrollY.current && currentScrollY > 80) {
-      setShowHeader(false);
-    } else {
-      setShowHeader(true);
-    }
-    lastScrollY.current = currentScrollY;
-  };
-
-  return (
+return (
     <main 
       onTouchStart={onTouchStart} 
       onTouchEnd={onTouchEnd} 
-      className={`flex-1 w-full relative z-10 ${viewMode.startsWith('list') ? 'overflow-y-auto' : ''}`}
+      className={`flex-1 w-full relative z-10 ${viewMode.startsWith('list') ? 'overflow-y-auto' : ''} ${className || ''}`}
     >
       {children}
     </main>
@@ -67,6 +55,16 @@ function InnerApp() {
   const [isGlobeView, setIsGlobeView] = useState(false);
   const [viewMode, setViewMode] = useState('card'); // 'card', 'list1', 'list2', 'list3', 'list4'
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
+  
+  const handleScroll = (e) => {
+    const currentScrollY = e.target.scrollTop;
+    if (currentScrollY > lastScrollY.current && currentScrollY > 80) {
+      setShowHeader(false);
+    } else {
+      setShowHeader(true);
+    }
+    lastScrollY.current = currentScrollY;
+  };
   
   // Preload all images on startup so they load instantly
   useEffect(() => {
@@ -164,9 +162,9 @@ function InnerApp() {
       )}
 
       {/* Minimal Header */}
-      <header className={`w-full px-4 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 z-50 fixed top-0 left-0 transition-transform duration-300 pointer-events-none ${showHeader ? "translate-y-0" : "-translate-y-full"}`}>
+      <header className={`w-full px-4 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 z-50 fixed md:relative top-0 left-0 transition-transform md:transition-none duration-300 pointer-events-none ${showHeader ? "translate-y-0" : "-translate-y-full"} md:translate-y-0`}>
         {/* Header background to cover scrolled content */}
-        <div className="absolute inset-0 bg-white/80 backdrop-blur-md border-b-4 pointer-events-none" style={{ borderColor: p.accent }}></div>
+        <div className="md:hidden absolute inset-0 bg-white/80 backdrop-blur-md border-b-4 pointer-events-none" style={{ borderColor: p.accent }}></div>
         
         <div className="flex items-center gap-4 shrink-0 cursor-pointer pointer-events-auto" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); }}>
           <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm" 
@@ -240,7 +238,7 @@ function InnerApp() {
       </header>
 
       {/* Breadcrumbs */}
-      <div className={`w-full h-8 px-4 md:px-8 py-2 z-40 fixed top-[140px] md:top-[80px] pointer-events-auto flex items-center gap-2 text-xs font-bold uppercase tracking-widest opacity-80 shrink-0 transition-transform duration-300 ${showHeader ? "translate-y-0" : "-translate-y-full"}`} style={{ color: isGlobeView ? '#fff' : p.accent }}>
+      <div className={`w-full h-8 px-4 md:px-8 py-2 z-40 fixed md:relative top-[140px] md:top-auto pointer-events-auto flex items-center gap-2 text-xs font-bold uppercase tracking-widest opacity-80 shrink-0 transition-transform md:transition-none duration-300 ${showHeader ? "translate-y-0" : "-translate-y-full"} md:translate-y-0`} style={{ color: isGlobeView ? '#fff' : p.accent }}>
          <span className="cursor-pointer hover:underline" onClick={() => { setViewMode('card'); setActiveDetailIsland(null); }}>Start</span>
          {showFavoritesOnly && <span>/ Favorieten</span>}
          {viewMode === 'list2' && <span>/ Lijstweergave</span>}
@@ -250,7 +248,7 @@ function InnerApp() {
 
         {/* Main Content Area */}
         <SwipeableMain 
-          className="pt-[180px] md:pt-[100px]" 
+          className="pt-[180px] md:pt-0 flex flex-col" 
           viewMode={viewMode} 
           activeDetailIsland={activeDetailIsland} 
           isGlobeView={isGlobeView}
@@ -258,7 +256,7 @@ function InnerApp() {
           handlePrev={handlePrev}
         >
           {activeDetailIsland ? (
-            <div className="absolute inset-0 overflow-y-auto pt-[200px] md:pt-[120px] pb-20" onScroll={handleScroll}>
+            <div className="absolute inset-0 overflow-y-auto pt-[200px] md:pt-4 pb-20" onScroll={handleScroll}>
               <DetailPage island={activeDetailIsland} p={p} onBack={() => setActiveDetailIsland(null)} />
             </div>
           ) : (
