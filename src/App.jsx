@@ -173,7 +173,7 @@ function InnerApp() {
                style={{ borderColor: isGlobeView ? '#00FF41' : p.accent, color: isGlobeView ? '#00FF41' : p.accent }}>
             <i className="fa-solid fa-earth-oceania"></i>
           </div>
-          <h1 className="text-3xl font-black uppercase tracking-tighter hidden lg:block transition-colors duration-700 drop-shadow-md" 
+          <h1 className="text-xl md:text-3xl font-black uppercase tracking-tighter transition-colors duration-700 drop-shadow-md" 
               style={{ color: isGlobeView ? '#00FF41' : p.accent }}>
             IslandExplorer
           </h1>
