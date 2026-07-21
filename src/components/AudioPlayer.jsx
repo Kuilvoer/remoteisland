@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const audioTracks = {
-  tropical: '/audio/tropical.mp3',
-  arctic: '/audio/arctic.wav',
-  desert: '/audio/desert.mp3',
-  jungle: '/audio/jungle.mp3',
-  volcanic: '/audio/volcanic.mp3',
+  tropical: import.meta.env.BASE_URL + 'audio/tropical.mp3',
+  arctic: import.meta.env.BASE_URL + 'audio/arctic.wav',
+  desert: import.meta.env.BASE_URL + 'audio/desert.mp3',
+  jungle: import.meta.env.BASE_URL + 'audio/jungle.mp3',
+  volcanic: import.meta.env.BASE_URL + 'audio/volcanic.mp3',
 };
 
 export default function AudioPlayer({ themeType, p }) {
