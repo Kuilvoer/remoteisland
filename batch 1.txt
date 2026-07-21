@@ -1,0 +1,507 @@
+[
+{
+"id": "bermuda",
+"name": "Bermuda",
+"country": "Verenigd Koninkrijk",
+"region": "Noord-Atlantische Oceaan",
+"themeType": "tropical",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": 32.3078,
+"lng": -64.7505,
+"timezone": "Atlantic/Bermuda"
+},
+"stats": {
+"population": 63903,
+"distanceToMainlandKm": 1030,
+"areaSqKm": 54,
+"highestPointMeters": 79
+},
+"logistics": {
+"route": "Directe vluchten vanaf de Amerikaanse oostkust (bijv. New York, ca. 2 uur) of Londen.",
+"permitRequired": false,
+"tags": ["Luchthaven", "Toeristisch", "Goede Infrastructuur"]
+},
+"story": {
+"description": "Bermuda ligt verrassend noordelijk voor een koraaleiland, beroemd om zijn roze zandstranden en maritieme geschiedenis. Ondanks de afgelegen ligging is het uiterst geciviliseerd en modern.",
+"floraFauna": "Roze zandstranden door koraalresten, Bermuda-stormvogel (Cahow).",
+"history": [
+{ "year": 1505, "event": "Ontdekt door de Spaanse kapitein Juan de Bermúdez" },
+{ "year": 1609, "event": "Gekoloniseerd na schipbreuk van de Sea Venture" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "BMD",
+"connectivity": "Zeer goed. Breedband internet en mobiele netwerken overal beschikbaar.",
+"souvenirTip": "Een traditionele 'Bermuda short' of lokaal geproduceerde rum."
+},
+"hazards": [
+"Orkaanseizoen (juni tot november)",
+"Navigatierisico's door omliggende koraalriffen"
+],
+"media": {
+"countryCode": "bm",
+"ambientAudioUrl": "/assets/audio/ocean-waves.mp3",
+"images": {
+"heroDesktop": "placeholder-bermuda-hero-desktop.jpg",
+"heroMobile": "placeholder-bermuda-hero-mobile.jpg",
+"gallery": [
+"placeholder-bermuda-1.jpg",
+"placeholder-bermuda-2.jpg"
+]
+}
+}
+},
+{
+"id": "fiji",
+"name": "Fiji",
+"country": "Fiji",
+"region": "Stille Oceaan",
+"themeType": "tropical",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": -17.7134,
+"lng": 178.0650,
+"timezone": "Pacific/Fiji"
+},
+"stats": {
+"population": 896444,
+"distanceToMainlandKm": 2100,
+"areaSqKm": 18274,
+"highestPointMeters": 1324
+},
+"logistics": {
+"route": "Internationale vluchten naar Nadi International Airport (NAN). Eilandhoppen via binnenlandse vluchten of veerboten.",
+"permitRequired": false,
+"tags": ["Archipel", "Tropisch Paradijs", "Hub in Oceanië"]
+},
+"story": {
+"description": "Een uitgestrekte archipel van meer dan 330 eilanden, bekend om zijn ruige landschappen, met palmen omzoomde stranden en koraalriffen met heldere lagunes.",
+"floraFauna": "Uitgebreide koraalriffen, karetschildpadden en de endemische Fiji-leguaan.",
+"history": [
+{ "year": 1643, "event": "Abel Tasman verkent als eerste Europeaan de eilanden" },
+{ "year": 1970, "event": "Onafhankelijk van het Verenigd Koninkrijk" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "FJD",
+"connectivity": "Goed op de hoofdeilanden, beperkter op de afgelegen atollen.",
+"souvenirTip": "Een traditionele 'Kava' kom gemaakt van lokaal hout."
+},
+"hazards": [
+"Tropische cyclonen in het regenseizoen",
+"Actieve breuklijnen (kleine kans op aardbevingen)"
+],
+"media": {
+"countryCode": "fj",
+"ambientAudioUrl": "/assets/audio/jungle-birds.mp3",
+"images": {
+"heroDesktop": "placeholder-fiji-hero-desktop.jpg",
+"heroMobile": "placeholder-fiji-hero-mobile.jpg",
+"gallery": [
+"placeholder-fiji-1.jpg",
+"placeholder-fiji-2.jpg"
+]
+}
+}
+},
+{
+"id": "seychellen",
+"name": "Seychellen",
+"country": "Seychellen",
+"region": "Indische Oceaan",
+"themeType": "tropical",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": -4.6796,
+"lng": 55.4920,
+"timezone": "Indian/Mahe"
+},
+"stats": {
+"population": 100447,
+"distanceToMainlandKm": 1500,
+"areaSqKm": 459,
+"highestPointMeters": 905
+},
+"logistics": {
+"route": "Vluchten naar Mahé International Airport. Veel eilanden zijn privé of alleen bereikbaar via kleine boot/helikopter.",
+"permitRequired": false,
+"tags": ["Granieteilanden", "Luxe", "Natuurbehoud"]
+},
+"story": {
+"description": "Een archipel van 115 eilanden voor de kust van Oost-Afrika. Beroemd om de unieke gigantische granietrotsen op de witte zandstranden en de weelderige jungle in het binnenland.",
+"floraFauna": "De iconische Coco de Mer-palm, en reuzenschildpadden op Aldabra.",
+"history": [
+{ "year": 1502, "event": "Gezien door Vasco da Gama" },
+{ "year": 1976, "event": "Onafhankelijke republiek geworden" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "SCR",
+"connectivity": "Goed internet op de 3 hoofdeilanden, daarbuiten beperkt.",
+"souvenirTip": "Vanille of lokaal geproduceerde etherische oliën."
+},
+"hazards": [
+"Strakke stromingen (rip currents) bij bepaalde stranden",
+"Heftige tropische regenbuien"
+],
+"media": {
+"countryCode": "sc",
+"ambientAudioUrl": "/assets/audio/ocean-waves.mp3",
+"images": {
+"heroDesktop": "placeholder-seychellen-hero.jpg",
+"heroMobile": "placeholder-seychellen-mobile.jpg",
+"gallery": ["placeholder-seychellen-1.jpg"]
+}
+}
+},
+{
+"id": "malediven",
+"name": "Malediven",
+"country": "Malediven",
+"region": "Indische Oceaan",
+"themeType": "tropical",
+"geographyType": "Atol",
+"location": {
+"lat": 3.2028,
+"lng": 73.2207,
+"timezone": "Indian/Maldives"
+},
+"stats": {
+"population": 521021,
+"distanceToMainlandKm": 1000,
+"areaSqKm": 298,
+"highestPointMeters": 2
+},
+"logistics": {
+"route": "Vluchten naar Malé (Velana International). Verder transport via watervliegtuigen of speedboten.",
+"permitRequired": false,
+"tags": ["Extreem Vlak", "Watervliegtuigen", "Koraal"]
+},
+"story": {
+"description": "Een tropisch land in de Indische Oceaan, bestaande uit 26 ringvormige atollen die op hun beurt bestaan uit meer dan 1.000 koraaleilanden. Bekend om het ongeëvenaarde onderwaterleven.",
+"floraFauna": "Walehaaien, mantaroggen en immense koraaltuinen.",
+"history": [
+{ "year": 1153, "event": "Bekering tot de Islam" },
+{ "year": 1965, "event": "Onafhankelijk van Groot-Brittannië" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "MVR",
+"connectivity": "Zeer goed, de meeste resorts hebben high-speed Wi-Fi.",
+"souvenirTip": "Ambachtelijk houtsnijwerk (let op: koraal meenemen is streng verboden)."
+},
+"hazards": [
+"Zeespiegelstijging (bestaansdreiging)",
+"Sterke rifstromingen"
+],
+"media": {
+"countryCode": "mv",
+"ambientAudioUrl": "/assets/audio/underwater-ambient.mp3",
+"images": {
+"heroDesktop": "placeholder-malediven-hero.jpg",
+"heroMobile": "placeholder-malediven-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "faeroer",
+"name": "Faeröer Eilanden",
+"country": "Denemarken",
+"region": "Noord-Atlantische Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": 61.8926,
+"lng": -6.9118,
+"timezone": "Atlantic/Faroe"
+},
+"stats": {
+"population": 54000,
+"distanceToMainlandKm": 320,
+"areaSqKm": 1399,
+"highestPointMeters": 880
+},
+"logistics": {
+"route": "Korte vlucht vanuit Kopenhagen, Reykjavik of Edinburgh, of per veerboot vanuit Denemarken/IJsland.",
+"permitRequired": false,
+"tags": ["Tunnels", "Schapen", "Kliffen"]
+},
+"story": {
+"description": "Een ruige, zelfbesturende eilandengroep binnen het Koninkrijk Denemarken. Gekenmerkt door dramatische steile kliffen, grasdaken en ontelbare schapen.",
+"floraFauna": "Papegaaiduikers, zeevogels en meer schapen dan mensen.",
+"history": [
+{ "year": 825, "event": "Ierse monniken vestigen zich op de eilanden" },
+{ "year": 1948, "event": "Zelfbestuur (Home Rule) verkregen" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "DKK",
+"connectivity": "Uitstekend. Glasvezel en 5G zijn breed uitgerold, zelfs op afgelegen plekken.",
+"souvenirTip": "Een Faeröerse wollen trui."
+},
+"hazards": [
+"Zeer onvoorspelbaar en ruig weer",
+"Gevaarlijke en steile klifranden"
+],
+"media": {
+"countryCode": "fo",
+"ambientAudioUrl": "/assets/audio/howling-wind.mp3",
+"images": {
+"heroDesktop": "placeholder-faeroer-hero.jpg",
+"heroMobile": "placeholder-faeroer-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "falklandeilanden",
+"name": "Falklandeilanden",
+"country": "Verenigd Koninkrijk",
+"region": "Zuid-Atlantische Oceaan",
+"themeType": "arctic",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": -51.7963,
+"lng": -59.5236,
+"timezone": "Atlantic/Stanley"
+},
+"stats": {
+"population": 3662,
+"distanceToMainlandKm": 480,
+"areaSqKm": 12173,
+"highestPointMeters": 705
+},
+"logistics": {
+"route": "Militaire vlucht (via RAF Brize Norton, UK) of LATAM vluchten vanuit Zuid-Amerika.",
+"permitRequired": false,
+"tags": ["Geïsoleerd", "Militair", "Sub-Antarctisch"]
+},
+"story": {
+"description": "Een onherbergzame archipel en Brits overzees gebied. Het desolate heidelandschap herbergt indrukwekkende kolonies van zeeolifanten en vijf verschillende soorten pinguïns.",
+"floraFauna": "Koningspinguïns, albatrossen en orka's voor de kust.",
+"history": [
+{ "year": 1690, "event": "Eerste geregistreerde landing door de Engelsman John Strong" },
+{ "year": 1982, "event": "Falklandoorlog tussen Argentinië en Groot-Brittannië" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "FKP",
+"connectivity": "Beperkt en duur. Afhankelijk van satellietverbindingen met harde datalimieten.",
+"souvenirTip": "Producten van de lokale wolindustrie."
+},
+"hazards": [
+"Extreme wind en koufronten",
+"Nog enkele niet-geruimde mijnenvelden uit de oorlog (echter goed gemarkeerd)"
+],
+"media": {
+"countryCode": "fk",
+"ambientAudioUrl": "/assets/audio/wind-penguins.mp3",
+"images": {
+"heroDesktop": "placeholder-falkland-hero.jpg",
+"heroMobile": "placeholder-falkland-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "groenland",
+"name": "Groenland",
+"country": "Denemarken",
+"region": "Noord-Atlantische Oceaan",
+"themeType": "arctic",
+"geographyType": "Eiland",
+"location": {
+"lat": 71.7069,
+"lng": -42.6043,
+"timezone": "America/Godthab"
+},
+"stats": {
+"population": 56661,
+"distanceToMainlandKm": 26,
+"areaSqKm": 2166000,
+"highestPointMeters": 3694
+},
+"logistics": {
+"route": "Vluchten via Kopenhagen (Denemarken) of Reykjavik (IJsland) naar Nuuk of Kangerlussuaq.",
+"permitRequired": false,
+"tags": ["Grootste Eiland", "IJskap", "Geen Wegen"]
+},
+"story": {
+"description": "Het grootste eiland ter wereld, dat voor ongeveer 80% bedekt is met een permanente ijskap. Hier smelten extreme wildernis en inheemse Inuit-cultuur samen in een hard, ijskoud landschap.",
+"floraFauna": "IJsberen, narwallen, muskusossen en poolvossen.",
+"history": [
+{ "year": 982, "event": "Erik de Rode landt en noemt het 'Groenland'" },
+{ "year": 2009, "event": "Wet op zelfbestuur trad in werking" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "DKK",
+"connectivity": "Snel in grote steden (Nuuk) via onderzeese kabels, afhankelijk van satelliet in de randgebieden.",
+"souvenirTip": "Traditioneel Tupilak hout- of beensnijwerk."
+},
+"hazards": [
+"Extreme poolkou en sneeuwstormen",
+"IJsberen rondom nederzettingen"
+],
+"media": {
+"countryCode": "gl",
+"ambientAudioUrl": "/assets/audio/ice-cracking.mp3",
+"images": {
+"heroDesktop": "placeholder-groenland-hero.jpg",
+"heroMobile": "placeholder-groenland-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "kauai",
+"name": "Kauai",
+"country": "Verenigde Staten",
+"region": "Stille Oceaan",
+"themeType": "jungle",
+"geographyType": "Eiland",
+"location": {
+"lat": 22.0964,
+"lng": -159.5261,
+"timezone": "Pacific/Honolulu"
+},
+"stats": {
+"population": 73298,
+"distanceToMainlandKm": 3800,
+"areaSqKm": 1456,
+"highestPointMeters": 1598
+},
+"logistics": {
+"route": "Directe vluchten vanaf het Amerikaanse vasteland naar Lihue Airport (LIH).",
+"permitRequired": false,
+"tags": ["Tuineiland", "Regenwoud", "Klifkust"]
+},
+"story": {
+"description": "Geologisch gezien het oudste van de belangrijkste Hawaïaanse eilanden. Bekend als het 'Tuineiland' vanwege het ongerepte, dramatische smaragdgroene regenwoud en de Na Pali Coast.",
+"floraFauna": "Hawaiiaanse monniksrobben, groene zeeschildpadden en endemische honingvogels.",
+"history": [
+{ "year": 1778, "event": "Kapitein James Cook landt hier als eerste op de Hawaiiaanse eilanden" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "USD",
+"connectivity": "Zeer modern, snelle netwerken overal (buiten de diepste valleien).",
+"souvenirTip": "Koa-hout snijwerk of Kauai-koffie."
+},
+"hazards": [
+"Zware regenval en 'flash floods' in de bergen",
+"Ruwe golven en verraderlijke stromingen in de winter"
+],
+"media": {
+"countryCode": "us",
+"ambientAudioUrl": "/assets/audio/jungle-waterfall.mp3",
+"images": {
+"heroDesktop": "placeholder-kauai-hero.jpg",
+"heroMobile": "placeholder-kauai-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "galapagos",
+"name": "Galapagos Eilanden",
+"country": "Ecuador",
+"region": "Stille Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": -0.3934,
+"lng": -90.3060,
+"timezone": "Pacific/Galapagos"
+},
+"stats": {
+"population": 30000,
+"distanceToMainlandKm": 1000,
+"areaSqKm": 8010,
+"highestPointMeters": 1707
+},
+"logistics": {
+"route": "Vluchten vanaf het Ecuadoriaanse vasteland (Quito of Guayaquil) naar Baltra of San Cristobal.",
+"permitRequired": true,
+"tags": ["Nationaal Park", "Evolutie", "Gids Verplicht"]
+},
+"story": {
+"description": "Deze geïsoleerde archipel is wereldberoemd om zijn grote aantal endemische soorten die Charles Darwin inspireerden tot zijn evolutietheorie.",
+"floraFauna": "Galápagosreuzenschildpad, zeeleguanen en de blauwvoetgent.",
+"history": [
+{ "year": 1535, "event": "Toevallige ontdekking door de bisschop van Panama" },
+{ "year": 1835, "event": "Charles Darwin bezoekt de eilanden met de HMS Beagle" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "USD",
+"connectivity": "Matig. Wifi in de dorpen is vaak traag of overbelast.",
+"souvenirTip": "Lokaal verbouwde Galápagos-koffie."
+},
+"hazards": [
+"Strikte regels rondom afval en natuurbehoud (hoge boetes)",
+"Intense equatoriale zon"
+],
+"media": {
+"countryCode": "ec",
+"ambientAudioUrl": "/assets/audio/sea-lions.mp3",
+"images": {
+"heroDesktop": "placeholder-galapagos-hero.jpg",
+"heroMobile": "placeholder-galapagos-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "svalbard",
+"name": "Svalbard",
+"country": "Noorwegen",
+"region": "Noordelijke IJszee",
+"themeType": "arctic",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": 77.8750,
+"lng": 20.9752,
+"timezone": "Arctic/Longyearbyen"
+},
+"stats": {
+"population": 2939,
+"distanceToMainlandKm": 800,
+"areaSqKm": 61022,
+"highestPointMeters": 1713
+},
+"logistics": {
+"route": "Commerciële vluchten vanaf Oslo of Tromsø naar Longyearbyen (LYR).",
+"permitRequired": false,
+"tags": ["Poolnacht", "Gletsjers", "Wapen Verplicht"]
+},
+"story": {
+"description": "Een van 's werelds noordelijkste bewoonde gebieden, gekenmerkt door uitgestrekte gletsjers, toendra en donkere winters. Het herbergt ook de Global Seed Vault.",
+"floraFauna": "IJsberen (ca. 3.000, meer dan mensen), walrussen, en rendieren.",
+"history": [
+{ "year": 1596, "event": "Ontdekt door Willem Barentsz" },
+{ "year": 1920, "event": "Spitsbergenverdrag tekent Noorse soevereiniteit" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "NOK",
+"connectivity": "Bizar goed. Longyearbyen heeft een van de modernste glasvezelnetwerken ter wereld (mede dankzij de satellietstations).",
+"souvenirTip": "Producten van rendiergewei of lokaal geproduceerde Svalbard-chocola."
+},
+"hazards": [
+"IJsberen (verplichting om buiten de nederzetting een wapen of flare gun te dragen)",
+"Extreme poolkou en lawinegevaar"
+],
+"media": {
+"countryCode": "sj",
+"ambientAudioUrl": "/assets/audio/arctic-wind.mp3",
+"images": {
+"heroDesktop": "placeholder-svalbard-hero.jpg",
+"heroMobile": "placeholder-svalbard-mobile.jpg",
+"gallery": []
+}
+}
+}
+]

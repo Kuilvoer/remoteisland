@@ -1,0 +1,499 @@
+[
+{
+"id": "tristan-da-cunha",
+"name": "Tristan da Cunha",
+"country": "Verenigd Koninkrijk",
+"region": "Zuid-Atlantische Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eiland",
+"location": {
+"lat": -37.1052,
+"lng": -12.2777,
+"timezone": "Atlantic/St_Helena"
+},
+"stats": {
+"population": 238,
+"distanceToMainlandKm": 2816,
+"areaSqKm": 98,
+"highestPointMeters": 2060
+},
+"logistics": {
+"route": "Geen vliegveld. Alleen per expeditieschip of vissersboot vanuit Kaapstad (Zuid-Afrika). Reisduur: ca. 6 dagen.",
+"permitRequired": true,
+"tags": ["Geen Haven", "Meest Afgelegen", "Vulkaan"]
+},
+"story": {
+"description": "Erkend als de meest afgelegen bewoonde plek op aarde. Het is een massieve vulkaan die uit de oceaan oprijst, waar een hechte gemeenschap overleeft onder barre omstandigheden.",
+"floraFauna": "Noordelijke rotspinguïn, de tristanalbatros en zeeolifanten.",
+"history": [
+{ "year": 1506, "event": "Ontdekt door de Portugese zeevaarder Tristão da Cunha" },
+{ "year": 1961, "event": "Totale evacuatie naar Engeland wegens een vulkaanuitbarsting" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "GBP",
+"connectivity": "Satellietverbinding (Starlink wordt langzaam uitgerold).",
+"souvenirTip": "Een handgebreide 'Love Match' sok van lokaal schapenwol."
+},
+"hazards": [
+"Actieve vulkaan (Queen Mary's Peak)",
+"Extreem zware winterstormen"
+],
+"media": {
+"countryCode": "sh",
+"ambientAudioUrl": "/assets/audio/wind-ocean.mp3",
+"images": {
+"heroDesktop": "placeholder-tristan-hero.jpg",
+"heroMobile": "placeholder-tristan-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "pitcairn",
+"name": "Pitcairn",
+"country": "Verenigd Koninkrijk",
+"region": "Stille Oceaan",
+"themeType": "tropical",
+"geographyType": "Eiland",
+"location": {
+"lat": -25.0667,
+"lng": -130.1002,
+"timezone": "Pacific/Pitcairn"
+},
+"stats": {
+"population": 47,
+"distanceToMainlandKm": 5300,
+"areaSqKm": 4.6,
+"highestPointMeters": 347
+},
+"logistics": {
+"route": "Vlucht naar Mangareva (Frans-Polynesië), daarna 32 uur varen met het bevoorradingsschip de 'Silver Supporter'.",
+"permitRequired": true,
+"tags": ["Muiterij", "Micro-Samenleving", "Per Schip"]
+},
+"story": {
+"description": "Een piepklein, ruig eiland en het enige bewoonde territorium van de vier Pitcairneilanden. Wereldberoemd als het toevluchtsoord van de muiters van de HMS Bounty.",
+"floraFauna": "Bultruggen voor de kust en een van 's werelds grootste en best bewaarde mariene reservaten.",
+"history": [
+{ "year": 1790, "event": "Muiters van de Bounty en Tahitiaanse metgezellen vestigen zich op het eiland" },
+{ "year": 1838, "event": "Werd het eerste Britse territorium in de Stille Oceaan" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "NZD",
+"connectivity": "Starlink zorgt inmiddels voor snel internet in Adamstown.",
+"souvenirTip": "Lokale Pitcairn-honing, bekend als een van de puurste ter wereld."
+},
+"hazards": [
+"Geen veilige aanlegplaats (schepen moeten voor de kust ankeren)",
+"Extreem steile kliffen"
+],
+"media": {
+"countryCode": "pn",
+"ambientAudioUrl": "/assets/audio/tropical-waves.mp3",
+"images": {
+"heroDesktop": "placeholder-pitcairn-hero.jpg",
+"heroMobile": "placeholder-pitcairn-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "bouvet",
+"name": "Bouvet",
+"country": "Noorwegen",
+"region": "Zuidelijke Oceaan",
+"themeType": "arctic",
+"geographyType": "Eiland",
+"location": {
+"lat": -54.4208,
+"lng": 3.3464,
+"timezone": "UTC"
+},
+"stats": {
+"population": 0,
+"distanceToMainlandKm": 1700,
+"areaSqKm": 49,
+"highestPointMeters": 780
+},
+"logistics": {
+"route": "Vrijwel onmogelijk te bezoeken. Soms aangedaan door wetenschappelijke expedities met ijsbrekers en helikopters.",
+"permitRequired": true,
+"tags": ["Onbewoond", "IJskap", "Extreme Isolatie"]
+},
+"story": {
+"description": "Dit door ijs bedekte, onbewoonde vulkanische eiland wordt beschouwd als het meest afgelegen eiland ter wereld. Het is een extreem ruig en troosteloos landschap.",
+"floraFauna": "Macaronipinguïns, stormvogels en Antarctische pelsrobben.",
+"history": [
+{ "year": 1739, "event": "Ontdekt door de Franse ontdekkingsreiziger Jean-Baptiste Charles Bouvet de Lozier" },
+{ "year": 1927, "event": "Opgeëist door Noorwegen tijdens een expeditie" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "NOK",
+"connectivity": "Geen. Alleen satellietverbinding als er een expeditie aanwezig is.",
+"souvenirTip": "Onbereikbaar voor toeristen, dus geen souvenirs."
+},
+"hazards": [
+"Voor 93% bedekt met een gletsjer",
+"Levensgevaarlijke rotskusten en ijsval"
+],
+"media": {
+"countryCode": "bv",
+"ambientAudioUrl": "/assets/audio/howling-ice-wind.mp3",
+"images": {
+"heroDesktop": "placeholder-bouvet-hero.jpg",
+"heroMobile": "placeholder-bouvet-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "rapa-nui",
+"name": "Rapa Nui (Paaseiland)",
+"country": "Chili",
+"region": "Stille Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eiland",
+"location": {
+"lat": -27.1127,
+"lng": -109.3497,
+"timezone": "Pacific/Easter"
+},
+"stats": {
+"population": 7750,
+"distanceToMainlandKm": 3512,
+"areaSqKm": 163,
+"highestPointMeters": 507
+},
+"logistics": {
+"route": "Reguliere vluchten vanuit Santiago (Chili), vluchtduur ca. 5.5 uur.",
+"permitRequired": false,
+"tags": ["Moai Beelden", "UNESCO", "Vulkanisch"]
+},
+"story": {
+"description": "Een van de meest geïsoleerde bewoonde eilanden ter wereld. Beroemd om zijn bijna 1.000 monumentale standbeelden, de 'Moai', gebouwd door de vroege Rapa Nui bevolking.",
+"floraFauna": "Grotendeels grasland. Wilde paarden zwerven vrij rond over het eiland.",
+"history": [
+{ "year": 1200, "event": "Schatting van de eerste bewoning door Polynesische reizigers" },
+{ "year": 1722, "event": "De Nederlandse ontdekkingsreiziger Jacob Roggeveen landt er op Paaszondag" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "CLP",
+"connectivity": "Matig. Wifi is aanwezig in Hanga Roa, maar vaak erg traag door satellietbeperkingen.",
+"souvenirTip": "Een miniatuur Moai-beeldje, bij voorkeur gesneden door een lokale Rapa Nui ambachtsman."
+},
+"hazards": [
+"Zeer sterke zonkracht door het ontbreken van bomen",
+"Strenge regels rondom archeologische sites (niet aanraken)"
+],
+"media": {
+"countryCode": "cl",
+"ambientAudioUrl": "/assets/audio/wind-ocean.mp3",
+"images": {
+"heroDesktop": "placeholder-rapanui-hero.jpg",
+"heroMobile": "placeholder-rapanui-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "macquarie",
+"name": "Macquarie",
+"country": "Australië",
+"region": "Zuidelijke Oceaan",
+"themeType": "arctic",
+"geographyType": "Eiland",
+"location": {
+"lat": -54.6208,
+"lng": 158.8556,
+"timezone": "Antarctica/Macquarie"
+},
+"stats": {
+"population": 0,
+"distanceToMainlandKm": 1500,
+"areaSqKm": 128,
+"highestPointMeters": 433
+},
+"logistics": {
+"route": "Onderdeel van gespecialiseerde sub-Antarctische cruises vanuit Nieuw-Zeeland of Australië.",
+"permitRequired": true,
+"tags": ["Onderzoeksstation", "Pinguïns", "UNESCO"]
+},
+"story": {
+"description": "Een smal, winderig eiland dat fungeert als een oase voor sub-Antarctische wilde dieren. Het is de enige plek op aarde waar gesteente uit de aardmantel actief boven zeeniveau wordt blootgesteld.",
+"floraFauna": "Miljoenen pinguïns (waaronder de endemische Schlegelpinguïn) en zeeolifanten.",
+"history": [
+{ "year": 1810, "event": "Ontdekt door zeehondenjager Frederick Hasselborough" },
+{ "year": 1997, "event": "Uitgeroepen tot UNESCO Werelderfgoed" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "AUD",
+"connectivity": "Geen commercieel internet. Het onderzoekstation (ca. 20-40 mensen) heeft een satellietlink.",
+"souvenirTip": "Je mag hier absoluut niets meenemen, behalve foto's."
+},
+"hazards": [
+"Extreem harde winden ('Roaring Forties' en 'Furious Fifties')",
+"Strikte biosecurity (laarzen moeten ontsmet worden)"
+],
+"media": {
+"countryCode": "au",
+"ambientAudioUrl": "/assets/audio/penguin-colony.mp3",
+"images": {
+"heroDesktop": "placeholder-macquarie-hero.jpg",
+"heroMobile": "placeholder-macquarie-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "socotra",
+"name": "Socotra",
+"country": "Jemen",
+"region": "Indische Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": 12.4634,
+"lng": 53.8237,
+"timezone": "Asia/Aden"
+},
+"stats": {
+"population": 60000,
+"distanceToMainlandKm": 380,
+"areaSqKm": 3796,
+"highestPointMeters": 1503
+},
+"logistics": {
+"route": "Zeer gecompliceerd door de situatie in Jemen. Incidentele chartervluchten vanuit Abu Dhabi of Caïro.",
+"permitRequired": true,
+"tags": ["Aliën Flora", "Woestijn", "Geïsoleerde Natuur"]
+},
+"story": {
+"description": "Vaak beschreven als 'de meest buitenaardse plek op aarde'. De jarenlange isolatie heeft geleid tot bizarre, endemische flora, zoals de opvallende Drakenbloedboom.",
+"floraFauna": "De Drakenbloedboom, woestijnrozen en een kwart van alle soorten hier komt nergens anders ter wereld voor.",
+"history": [
+{ "year": 2008, "event": "De archipel wordt uitgeroepen tot UNESCO Werelderfgoed" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "YER",
+"connectivity": "Zeer slecht tot niet-bestaand buiten de hoofdplaats Hadibo.",
+"souvenirTip": "Hars van de Drakenbloedboom of lokale honing."
+},
+"hazards": [
+"Harde moessonwinden tussen juni en september",
+"Complexe geopolitieke veiligheidssituatie"
+],
+"media": {
+"countryCode": "ye",
+"ambientAudioUrl": "/assets/audio/desert-wind.mp3",
+"images": {
+"heroDesktop": "placeholder-socotra-hero.jpg",
+"heroMobile": "placeholder-socotra-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "ascension",
+"name": "Ascension",
+"country": "Verenigd Koninkrijk",
+"region": "Zuid-Atlantische Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eiland",
+"location": {
+"lat": -7.9467,
+"lng": -14.3559,
+"timezone": "Atlantic/St_Helena"
+},
+"stats": {
+"population": 806,
+"distanceToMainlandKm": 1600,
+"areaSqKm": 88,
+"highestPointMeters": 859
+},
+"logistics": {
+"route": "Militaire vlucht (RAF) vanuit het Verenigd Koninkrijk of vluchten vanuit Sint-Helena. Toerisme is streng gelimiteerd.",
+"permitRequired": true,
+"tags": ["Militaire Post", "Vulkaanlandschap", "Zeeschildpadden"]
+},
+"story": {
+"description": "Een ruig vulkanisch eiland dat voornamelijk fungeert als militaire en communicatiebasis voor de VS en de UK. Het landschap oogt dor en maanachtig, op de groene 'Green Mountain' na.",
+"floraFauna": "Grootste broedplaats van soepschildpadden (green turtles) in de Atlantische Oceaan.",
+"history": [
+{ "year": 1501, "event": "Ontdekt op Hemelvaartsdag (Ascension)" },
+{ "year": 1815, "event": "Garnizoen geplaatst door de Britten om Napoleon (op St. Helena) te bewaken" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "SHP",
+"connectivity": "Sterk beperkt voor burgers, hoewel de infrastructuur (voor militairen) aanwezig is.",
+"souvenirTip": "Postzegels van Ascension (zeer gewild bij verzamelaars)."
+},
+"hazards": [
+"Toeristenvergunningen kunnen zonder pardon worden ingetrokken wegens militaire operaties",
+"Zeer gevaarlijke zeestromingen"
+],
+"media": {
+"countryCode": "ac",
+"ambientAudioUrl": "/assets/audio/ocean-waves.mp3",
+"images": {
+"heroDesktop": "placeholder-ascension-hero.jpg",
+"heroMobile": "placeholder-ascension-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "spitsbergen",
+"name": "Spitsbergen",
+"country": "Noorwegen",
+"region": "Noordelijke IJszee",
+"themeType": "arctic",
+"geographyType": "Eiland",
+"location": {
+"lat": 78.8955,
+"lng": 16.0142,
+"timezone": "Arctic/Longyearbyen"
+},
+"stats": {
+"population": 2939,
+"distanceToMainlandKm": 800,
+"areaSqKm": 37673,
+"highestPointMeters": 1713
+},
+"logistics": {
+"route": "Reguliere vluchten van Oslo of Tromsø naar Longyearbyen.",
+"permitRequired": false,
+"tags": ["Hoofdeiland Svalbard", "Gletsjers", "IJsberen"]
+},
+"story": {
+"description": "Het enige permanent bewoonde eiland van de Svalbard-archipel. Hier staat wildernis voorop: gletsjers, besneeuwde pieken en de beroemde middernachtzon in de zomer.",
+"floraFauna": "IJsberen, walrussen, poolvossen en Svalbard-rendieren.",
+"history": [
+{ "year": 1596, "event": "Willem Barentsz ontdekt het eiland en noemt het 'Spitsbergen'" },
+{ "year": 2008, "event": "Opening van de Svalbard Global Seed Vault" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "NOK",
+"connectivity": "Verrassend snel internet via een onderzeese glasvezelkabel in Longyearbyen.",
+"souvenirTip": "Iets gekocht in de noordelijkste supermarkt ter wereld."
+},
+"hazards": [
+"IJsberen (wapenverplichting buiten de nederzettingen)",
+"Extreme temperaturen en lawinegevaar"
+],
+"media": {
+"countryCode": "sj",
+"ambientAudioUrl": "/assets/audio/arctic-wind.mp3",
+"images": {
+"heroDesktop": "placeholder-spitsbergen-hero.jpg",
+"heroMobile": "placeholder-spitsbergen-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "kerguelen",
+"name": "Kerguelen",
+"country": "Frankrijk",
+"region": "Indische Oceaan",
+"themeType": "arctic",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": -49.3500,
+"lng": 69.3333,
+"timezone": "Indian/Kerguelen"
+},
+"stats": {
+"population": 45,
+"distanceToMainlandKm": 3300,
+"areaSqKm": 7215,
+"highestPointMeters": 1850
+},
+"logistics": {
+"route": "Enkel per zeldzaam bevoorradingsschip vanuit Réunion (ca. 4 keer per jaar).",
+"permitRequired": true,
+"tags": ["Verlaten Eilanden", "Wetenschap", "Sub-Antarctisch"]
+},
+"story": {
+"description": "Ook wel de 'Desolation Islands' (Verlaten Eilanden) genoemd. Dit enorme, ijskoude territorium in de zuidelijke Indische Oceaan heeft geen inheemse bevolking, enkel roulerende Franse wetenschappers.",
+"floraFauna": "Enorme kolonies koningspinguïns, zeeolifanten en de Kerguelenkool (een unieke vitamine C-bron voor zeelieden).",
+"history": [
+{ "year": 1772, "event": "Ontdekt door de Franse Bretonse zeevaarder Yves-Joseph de Kerguelen-Trémarec" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "EUR",
+"connectivity": "Alleen via satelliet voor de onderzoekers op station Port-aux-Français.",
+"souvenirTip": "Slechts een speciale stempel in je paspoort (als je er al mag komen)."
+},
+"hazards": [
+"Altijd harde wind, storm en lagedrukgebieden",
+"Absoluut onbereikbaar voor directe medische evacuaties"
+],
+"media": {
+"countryCode": "tf",
+"ambientAudioUrl": "/assets/audio/storm-penguins.mp3",
+"images": {
+"heroDesktop": "placeholder-kerguelen-hero.jpg",
+"heroMobile": "placeholder-kerguelen-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "sint-helena",
+"name": "Sint-Helena",
+"country": "Verenigd Koninkrijk",
+"region": "Zuid-Atlantische Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eiland",
+"location": {
+"lat": -15.9650,
+"lng": -5.7089,
+"timezone": "Atlantic/St_Helena"
+},
+"stats": {
+"population": 4439,
+"distanceToMainlandKm": 1950,
+"areaSqKm": 121,
+"highestPointMeters": 818
+},
+"logistics": {
+"route": "Commerciële vluchten vanaf Johannesburg (Zuid-Afrika) naar het kleine vliegveld van St. Helena.",
+"permitRequired": false,
+"tags": ["Napoleon", "Historie", "Vliegveld"]
+},
+"story": {
+"description": "Ooit enkel bereikbaar met een vijfdaagse bootreis, nu ontsloten door een controversieel vliegveld. Het ruige eiland ademt maritieme historie en is wereldberoemd als de plek waar Napoleon zijn laatste jaren sleet.",
+"floraFauna": "De oudste inwoner is Jonathan, een Seychellen-reuzenschildpad van meer dan 190 jaar oud.",
+"history": [
+{ "year": 1502, "event": "Ontdekt door de Portugezen" },
+{ "year": 1815, "event": "Napoleon Bonaparte wordt hier verbannen tot aan zijn dood in 1821" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "SHP",
+"connectivity": "Onlangs aangesloten op de Equiano onderzeese glasvezelkabel (spectaculaire upgrade).",
+"souvenirTip": "De exclusieve St. Helena koffie (een van de zeldzaamste en duurste ter wereld)."
+},
+"hazards": [
+"Vliegen naar het eiland kan turbulent zijn vanwege de 'wind shear' op de luchthaven"
+],
+"media": {
+"countryCode": "sh",
+"ambientAudioUrl": "/assets/audio/ocean-birds.mp3",
+"images": {
+"heroDesktop": "placeholder-sint-helena-hero.jpg",
+"heroMobile": "placeholder-sint-helena-mobile.jpg",
+"gallery": []
+}
+}
+}
+]

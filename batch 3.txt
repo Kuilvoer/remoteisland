@@ -1,0 +1,502 @@
+[
+{
+"id": "diego-garcia",
+"name": "Diego Garcia",
+"country": "Verenigd Koninkrijk / VS",
+"region": "Indische Oceaan",
+"themeType": "tropical",
+"geographyType": "Atol",
+"location": {
+"lat": -7.3195,
+"lng": 72.4228,
+"timezone": "Indian/Chagos"
+},
+"stats": {
+"population": 3000,
+"distanceToMainlandKm": 1700,
+"areaSqKm": 27,
+"highestPointMeters": 7
+},
+"logistics": {
+"route": "Verboden voor burgers. Uitsluitend toegankelijk voor geautoriseerd militair personeel via militaire vluchten.",
+"permitRequired": true,
+"tags": ["Militair", "Gesloten Atol", "Controversieel"]
+},
+"story": {
+"description": "Een tropisch atol met een donkere geschiedenis. In de jaren '60 werd de oorspronkelijke bevolking door de Britten verdreven om er een massieve, geheime Amerikaanse militaire basis van te maken.",
+"floraFauna": "De lagune bevat een van de meest ongerepte koraalriffen ter wereld. Kokoskrabben en zeeschildpadden in overvloed.",
+"history": [
+{ "year": 1512, "event": "Ontdekt door de Portugese ontdekkingsreiziger Pedro Mascarenhas" },
+{ "year": 1971, "event": "Oprichting van de Amerikaanse marinebasis (Camp Justice)" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "USD",
+"connectivity": "Gesloten militair netwerk.",
+"souvenirTip": "Onmogelijk om te bezoeken, dus geen souvenirs."
+},
+"hazards": [
+"Strikt verboden militair terrein (arrestatie bij onbevoegd betreden)",
+"Kans op tsunami's door de lage ligging"
+],
+"media": {
+"countryCode": "io",
+"ambientAudioUrl": "/assets/audio/tropical-military.mp3",
+"images": {
+"heroDesktop": "placeholder-diegogarcia-hero.jpg",
+"heroMobile": "placeholder-diegogarcia-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "niue",
+"name": "Niue",
+"country": "Nieuw-Zeeland",
+"region": "Stille Oceaan",
+"themeType": "tropical",
+"geographyType": "Eiland",
+"location": {
+"lat": -19.0544,
+"lng": -169.8672,
+"timezone": "Pacific/Niue"
+},
+"stats": {
+"population": 1933,
+"distanceToMainlandKm": 2400,
+"areaSqKm": 261,
+"highestPointMeters": 68
+},
+"logistics": {
+"route": "Slechts één of twee wekelijkse commerciële vluchten vanuit Auckland (Nieuw-Zeeland).",
+"permitRequired": false,
+"tags": ["Koraalrots", "Onafhankelijk", "Walvissen"]
+},
+"story": {
+"description": "Een van de kleinste zelfbesturende staten ter wereld. Niue is geen atol met witte zandstranden, maar één gigantisch, omhooggeduwd koraalrif ('makatea') vol spectaculaire kalksteengrotten en kloven.",
+"floraFauna": "Bultruggen zwemmen hier tussen juli en oktober extreem dicht bij de steile kustlijn.",
+"history": [
+{ "year": 1774, "event": "Kapitein James Cook ontdekt het eiland en noemt het 'Savage Island'" },
+{ "year": 1974, "event": "Kreeg zelfbestuur in vrije associatie met Nieuw-Zeeland" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "NZD",
+"connectivity": "Niue was in 2003 het eerste land ter wereld met landelijk, gratis Wi-Fi voor alle inwoners.",
+"souvenirTip": "Lokale biologische vanille of geweven pandanus-handwerk."
+},
+"hazards": [
+"Gevaarlijk scherpe koraalrotsen langs de kustlijn",
+"Gevoelig voor zware tropische cyclonen"
+],
+"media": {
+"countryCode": "nu",
+"ambientAudioUrl": "/assets/audio/whale-songs.mp3",
+"images": {
+"heroDesktop": "placeholder-niue-hero.jpg",
+"heroMobile": "placeholder-niue-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "palmerston",
+"name": "Palmerston",
+"country": "Cookeilanden",
+"region": "Stille Oceaan",
+"themeType": "tropical",
+"geographyType": "Atol",
+"location": {
+"lat": -18.0550,
+"lng": -163.1780,
+"timezone": "Pacific/Rarotonga"
+},
+"stats": {
+"population": 58,
+"distanceToMainlandKm": 3200,
+"areaSqKm": 2.1,
+"highestPointMeters": 4
+},
+"logistics": {
+"route": "Geen vliegveld. Alleen bereikbaar door mee te varen met vrachtschepen vanuit Rarotonga, wat meerdere dagen duurt.",
+"permitRequired": true,
+"tags": ["Eén Familie", "Lagune", "Micro-Samenleving"]
+},
+"story": {
+"description": "Een perfect, ringvormig koraalatol. Wat Palmerston uniek maakt, is dat vrijwel alle bewoners directe nakomelingen zijn van één enkele Engelsman: William Marsters, die zich hier in 1863 vestigde met zijn drie Polynesische vrouwen.",
+"floraFauna": "Papegaaivissen, zeeschildpadden en koraaltuinen in de ondiepe lagune.",
+"history": [
+{ "year": 1774, "event": "Ontdekt door Kapitein James Cook" },
+{ "year": 1863, "event": "William Marsters arriveert en begint de Palmerston-dynastie" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "NZD",
+"connectivity": "Sinds kort is er satellietinternet geïnstalleerd voor communicatie met de buitenwereld.",
+"souvenirTip": "De kans om hier te komen is minuscuul, maar de gastvrijheid is legendarisch (er is geen geld in omloop op het atol zelf, ruilhandel domineert)."
+},
+"hazards": [
+"Acute dreiging door zeespiegelstijging",
+"Compleet afgesneden van medische noodhulp"
+],
+"media": {
+"countryCode": "ck",
+"ambientAudioUrl": "/assets/audio/calm-lagoon.mp3",
+"images": {
+"heroDesktop": "placeholder-palmerston-hero.jpg",
+"heroMobile": "placeholder-palmerston-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "floreana",
+"name": "Floreana",
+"country": "Ecuador",
+"region": "Stille Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eiland",
+"location": {
+"lat": -1.2980,
+"lng": -90.4390,
+"timezone": "Pacific/Galapagos"
+},
+"stats": {
+"population": 150,
+"distanceToMainlandKm": 1000,
+"areaSqKm": 173,
+"highestPointMeters": 640
+},
+"logistics": {
+"route": "Per kleine veerboot of speedboot vanaf het hoofdeiland Santa Cruz in de Galapagos (ca. 2 uur varen).",
+"permitRequired": true,
+"tags": ["Galapagos", "Mysterie", "Piraten"]
+},
+"story": {
+"description": "Een van de eerste bewoonde eilanden van de Galapagos, doordrenkt met piratenlegendes en het beroemde 'Galapagos Affair' mysterie uit de jaren '30, waarbij vroege Europese kolonisten spoorloos verdwenen.",
+"floraFauna": "Galapagospinguïns, roze flamingo's in zoutwaterlagunes en zeeleguanen.",
+"history": [
+{ "year": 1793, "event": "Britse walvisvaarders plaatsen de beroemde houten 'Post Office Bay' ton" },
+{ "year": 1932, "event": "Het mysterieuze 'Floreana Mysterie' omtrent de zelfbenoemde barones Eloise von Wagner" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "USD",
+"connectivity": "Zeer matig. Beperkte Wi-Fi in de enige nederzetting, Puerto Velasco Ibarra.",
+"souvenirTip": "Laat een ansichtkaart zonder postzegel achter in de historische houten ton bij Post Office Bay, en neem er eentje mee om persoonlijk bij iemand thuis af te leveren."
+},
+"hazards": [
+"Extreem sterke stromingen rondom het eiland",
+"Strikte beschermingsregels om invasieve plant- en diersoorten te voorkomen"
+],
+"media": {
+"countryCode": "ec",
+"ambientAudioUrl": "/assets/audio/birds-volcano.mp3",
+"images": {
+"heroDesktop": "placeholder-floreana-hero.jpg",
+"heroMobile": "placeholder-floreana-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "zuid-georgia",
+"name": "Zuid-Georgia",
+"country": "Verenigd Koninkrijk",
+"region": "Zuid-Atlantische Oceaan",
+"themeType": "arctic",
+"geographyType": "Eiland",
+"location": {
+"lat": -54.2511,
+"lng": -36.5080,
+"timezone": "Atlantic/South_Georgia"
+},
+"stats": {
+"population": 30,
+"distanceToMainlandKm": 2150,
+"areaSqKm": 3903,
+"highestPointMeters": 2935
+},
+"logistics": {
+"route": "Enkel per expeditiecruiseschip vanuit Ushuaia (Argentinië) of de Falklandeilanden. Een ruige zeereis van meerdere dagen.",
+"permitRequired": true,
+"tags": ["Antarctisch", "Shackleton", "Fauna-Paradijs"]
+},
+"story": {
+"description": "Deze sub-Antarctische oase wordt vaak de 'Serengeti van de Zuidelijke Oceaan' genoemd. Het herbergt gigantische gletsjers, verlaten walvisstations en is de laatste rustplaats van ontdekkingsreiziger Ernest Shackleton.",
+"floraFauna": "Miljoenen koningspinguïns, Macaronipinguïns en enorme kolonies van massieve zuidelijke zeeolifanten.",
+"history": [
+{ "year": 1775, "event": "Kapitein James Cook claimt het eiland voor Groot-Brittannië" },
+{ "year": 1916, "event": "Ernest Shackleton voltooit hier zijn legendarische overlevingstocht" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "FKP",
+"connectivity": "Alleen beschikbaar voor de wetenschappers en ambtenaren in de voormalige walvisvaardersnederzetting Grytviken.",
+"souvenirTip": "Een poststempel of postzegel uit het kleine postkantoor in Grytviken."
+},
+"hazards": [
+"Extreem weer en katabatische winden (lawines van koude lucht van de bergen)",
+"Agressieve pelsrobben op het strand gedurende het broedseizoen"
+],
+"media": {
+"countryCode": "gs",
+"ambientAudioUrl": "/assets/audio/king-penguins.mp3",
+"images": {
+"heroDesktop": "placeholder-southgeorgia-hero.jpg",
+"heroMobile": "placeholder-southgeorgia-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "amsterdam-eiland",
+"name": "Amsterdam-eiland",
+"country": "Frankrijk",
+"region": "Indische Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eiland",
+"location": {
+"lat": -37.8280,
+"lng": 77.5340,
+"timezone": "Indian/Kerguelen"
+},
+"stats": {
+"population": 25,
+"distanceToMainlandKm": 4300,
+"areaSqKm": 55,
+"highestPointMeters": 867
+},
+"logistics": {
+"route": "Wordt voornamelijk bevoorraad door het schip Marion Dufresne vanuit Réunion (Franse Overzeese Gebieden).",
+"permitRequired": true,
+"tags": ["TAAF", "Onderzoek", "Schildvulkaan"]
+},
+"story": {
+"description": "Een ronde schildvulkaan die moederziel alleen midden in de zuidelijke Indische Oceaan ligt. Het eiland maakt deel uit van de Franse Zuidelijke Gebieden en wordt uitsluitend bewoond door roulerende wetenschappers in station Martin-de-Viviès.",
+"floraFauna": "De ernstig bedreigde Amsterdamalbatros (die alleen hier nestelt) en subantarctische zeeberen.",
+"history": [
+{ "year": 1522, "event": "Gezien door het Spaanse schip Victoria (expeditie van Magellaan)" },
+{ "year": 1633, "event": "De Nederlandse kapitein Anthonie van Diemen vernoemt het naar Amsterdam" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "EUR",
+"connectivity": "Satellietverbinding voor het wetenschappelijk station.",
+"souvenirTip": "Uiterst zeldzame filatelistische (postzegel) uitgaven van de TAAF (Terres australes et antarctiques françaises)."
+},
+"hazards": [
+"Absolute isolatie; medische evacuaties zijn nagenoeg onmogelijk in de winter",
+"Steile, onherbergzame kliffen rondom het hele eiland"
+],
+"media": {
+"countryCode": "tf",
+"ambientAudioUrl": "/assets/audio/howling-wind.mp3",
+"images": {
+"heroDesktop": "placeholder-amsterdam-hero.jpg",
+"heroMobile": "placeholder-amsterdam-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "jan-mayen",
+"name": "Jan Mayen",
+"country": "Noorwegen",
+"region": "Noordelijke IJszee",
+"themeType": "arctic",
+"geographyType": "Eiland",
+"location": {
+"lat": 71.0450,
+"lng": -8.1560,
+"timezone": "Europe/Oslo"
+},
+"stats": {
+"population": 18,
+"distanceToMainlandKm": 900,
+"areaSqKm": 377,
+"highestPointMeters": 2277
+},
+"logistics": {
+"route": "Geen commerciële vluchten of havens. Alleen bereikbaar voor personeel via de onverharde landingsbaan met militaire C-130 Hercules vliegtuigen.",
+"permitRequired": true,
+"tags": ["Actieve Vulkaan", "Militair", "Arctic"]
+},
+"story": {
+"description": "Dit vulkanische pooleiland wordt gedomineerd door Beerenberg, de noordelijkste actieve vulkaan op aarde. Het wordt bemand door Noorse militairen en meteorologen.",
+"floraFauna": "IJsberen komen af en toe voorbij drijven op het pakijs. Walrussen en enorme aantallen zeevogels.",
+"history": [
+{ "year": 1614, "event": "Vernoemd naar de Nederlandse walvisvaarder Jan Jacobszoon May" },
+{ "year": 1930, "event": "Onder officieel Noors bestuur geplaatst" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "NOK",
+"connectivity": "Satelliet- en militair netwerk voor het basisstation Olonkinbyen.",
+"souvenirTip": "Niet toegankelijk voor toeristen."
+},
+"hazards": [
+"Actieve vulkaan onder een gletsjer",
+"Dichte mist, zware stormen en extreme poolkou"
+],
+"media": {
+"countryCode": "sj",
+"ambientAudioUrl": "/assets/audio/arctic-wind.mp3",
+"images": {
+"heroDesktop": "placeholder-janmayen-hero.jpg",
+"heroMobile": "placeholder-janmayen-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "inaccessible-island",
+"name": "Inaccessible Island",
+"country": "Verenigd Koninkrijk",
+"region": "Zuid-Atlantische Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eiland",
+"location": {
+"lat": -37.3000,
+"lng": -12.6830,
+"timezone": "Atlantic/St_Helena"
+},
+"stats": {
+"population": 0,
+"distanceToMainlandKm": 2800,
+"areaSqKm": 14,
+"highestPointMeters": 449
+},
+"logistics": {
+"route": "Enkel bereikbaar vanaf Tristan da Cunha, en alleen met expliciete toestemming voor wetenschappelijk onderzoek.",
+"permitRequired": true,
+"tags": ["Natuurreservaat", "Onbewoond", "UNESCO"]
+},
+"story": {
+"description": "De naam zegt genoeg. Een massieve, dode vulkanische rots die loodrecht uit de oceaan omhoog steekt, zonder haven of begaanbare stranden. Het eiland is volledig ontsnapt aan menselijke bewoning of invasieve dieren, waardoor de natuur in prehistorische staat is.",
+"floraFauna": "Wereldberoemd om de Inaccessible-eilandral (Atlantisia rogersi), de kleinste vliegloze vogel ter wereld.",
+"history": [
+{ "year": 1656, "event": "Het Nederlandse schip 't Nachtglas brengt het eiland in kaart" },
+{ "year": 1995, "event": "Verklaard tot UNESCO Werelderfgoed" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "GBP",
+"connectivity": "Geen. Er is simpelweg geen mens aanwezig om te connecten.",
+"souvenirTip": "Niets (Strikt natuurreservaat)."
+},
+"hazards": [
+"Gevaarlijke, steile en spekgladde kliffen",
+"Levensgevaarlijk om met kleine boten aan te meren door zware zeestroming"
+],
+"media": {
+"countryCode": "sh",
+"ambientAudioUrl": "/assets/audio/seabirds-cliff.mp3",
+"images": {
+"heroDesktop": "placeholder-inaccessible-hero.jpg",
+"heroMobile": "placeholder-inaccessible-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "chatham",
+"name": "Chatham Island",
+"country": "Nieuw-Zeeland",
+"region": "Stille Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eiland",
+"location": {
+"lat": -43.9160,
+"lng": -176.5330,
+"timezone": "Pacific/Chatham"
+},
+"stats": {
+"population": 663,
+"distanceToMainlandKm": 800,
+"areaSqKm": 900,
+"highestPointMeters": 299
+},
+"logistics": {
+"route": "Reguliere vluchten (Air Chathams) vanaf Auckland, Wellington of Christchurch (Nieuw-Zeeland).",
+"permitRequired": false,
+"tags": ["Tijdzone Paradox", "Moriori", "Ruig Landschap"]
+},
+"story": {
+"description": "Een ruige, mistige en geïsoleerde uithoek voor de kust van Nieuw-Zeeland. Het eiland heeft een bijzondere, unieke tijdzone (45 minuten voor op Nieuw-Zeeland) en herbergt de fascinerende inheemse Moriori-cultuur.",
+"floraFauna": "De Chatham-vliegenvanger (black robin), die gered werd van uitsterven door de inzet van natuurbeschermers.",
+"history": [
+{ "year": 1500, "event": "Geschatte aankomst van de Polynesische Moriori" },
+{ "year": 1791, "event": "Europees contact door het schip HMS Chatham" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "NZD",
+"connectivity": "Lokaal internet, maar data is duur en connecties kunnen langzaam zijn.",
+"souvenirTip": "Traditioneel Moriori hout- of beensnijwerk en lokale Blauwe Kabeljauw (Blue Cod)."
+},
+"hazards": [
+"Verraderlijke wateren rondom het eiland",
+"Koud en zeer winderig microklimaat"
+],
+"media": {
+"countryCode": "nz",
+"ambientAudioUrl": "/assets/audio/wind-ocean.mp3",
+"images": {
+"heroDesktop": "placeholder-chatham-hero.jpg",
+"heroMobile": "placeholder-chatham-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "gough",
+"name": "Gough Island",
+"country": "Verenigd Koninkrijk",
+"region": "Zuid-Atlantische Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eiland",
+"location": {
+"lat": -40.3160,
+"lng": -9.9330,
+"timezone": "Atlantic/St_Helena"
+},
+"stats": {
+"population": 6,
+"distanceToMainlandKm": 2700,
+"areaSqKm": 91,
+"highestPointMeters": 910
+},
+"logistics": {
+"route": "Enkel het Zuid-Afrikaanse bevoorradingsschip de S.A. Agulhas II komt hier één keer per jaar. Strikt verboden voor regulier toerisme.",
+"permitRequired": true,
+"tags": ["Onderzoek", "Vogelparadijs", "Geïsoleerd"]
+},
+"story": {
+"description": "Een spectaculair, door wind geteisterd eiland dat wordt beschouwd als een van de minst verstoorde ecosystemen ter wereld. Het wordt bemand door een piepklein Zuid-Afrikaans weerkundig team (SANAP).",
+"floraFauna": "Een van 's werelds belangrijkste zeevogelkolonies, met de met uitsterven bedreigde Tristanoceaanloper.",
+"history": [
+{ "year": 1505, "event": "Gezien door de Portugese ontdekkingsreiziger Gonçalo Álvares" },
+{ "year": 1995, "event": "Uitgeroepen tot UNESCO Werelderfgoed" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "GBP",
+"connectivity": "Slechts een beperkte satellietverbinding ten behoeve van meteorologische data en de wetenschappers.",
+"souvenirTip": "Volledig onbereikbaar voor het publiek, dus geen souvenirs te bemachtigen."
+},
+"hazards": [
+"Invasieve huismuizen (oorspronkelijk meegekomen met walvisvaarders) die op grote schaal de kuikens van zeevogels opeten",
+"Extreme 'Roaring Forties' winden"
+],
+"media": {
+"countryCode": "sh",
+"ambientAudioUrl": "/assets/audio/storm-birds.mp3",
+"images": {
+"heroDesktop": "placeholder-gough-hero.jpg",
+"heroMobile": "placeholder-gough-mobile.jpg",
+"gallery": []
+}
+}
+}
+]

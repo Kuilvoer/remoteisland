@@ -1,0 +1,502 @@
+[
+{
+"id": "sable-island",
+"name": "Sable Island",
+"country": "Canada",
+"region": "Noord-Atlantische Oceaan",
+"themeType": "arctic",
+"geographyType": "Eiland",
+"location": {
+"lat": 43.9337,
+"lng": -59.9149,
+"timezone": "America/Halifax"
+},
+"stats": {
+"population": 4,
+"distanceToMainlandKm": 300,
+"areaSqKm": 34,
+"highestPointMeters": 30
+},
+"logistics": {
+"route": "Uitsluitend bereikbaar per gecharterd klein vliegtuigje of helikopter (die landen op het strand) met expliciete toestemming van Parks Canada.",
+"permitRequired": true,
+"tags": ["Zandbank", "Scheepskerkhof", "Wilde Paarden"]
+},
+"story": {
+"description": "Een gigantische, smalle zandbank midden in de onstuimige Atlantische Oceaan. Beroemd om de honderden wilde paarden die hier overleven en de meer dan 350 scheepswrakken die in het zand begraven liggen.",
+"floraFauna": "Meer dan 500 wilde Sable Island-paarden en 's werelds grootste broedkolonie van de grijze zeehond.",
+"history": [
+{ "year": 1520, "event": "Eerste vermelding op Portugese kaarten" },
+{ "year": 2013, "event": "Officieel uitgeroepen tot Canadees Nationaal Park Reservaat" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "CAD",
+"connectivity": "Satellietverbinding voor de handvol roulerende onderzoekers en parkwachters.",
+"souvenirTip": "Niets (het is ten strengste verboden om ook maar iets, zelfs zand, van het eiland mee te nemen)."
+},
+"hazards": [
+"Extreem dichte, plotselinge zeemist",
+"Verraderlijke zandbanken die constant van vorm veranderen"
+],
+"media": {
+"countryCode": "ca",
+"ambientAudioUrl": "/assets/audio/wind-horses.mp3",
+"images": {
+"heroDesktop": "placeholder-sable-hero.jpg",
+"heroMobile": "placeholder-sable-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "robinson-crusoe",
+"name": "Robinson Crusoe",
+"country": "Chili",
+"region": "Stille Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eiland",
+"location": {
+"lat": -33.6362,
+"lng": -78.8471,
+"timezone": "Pacific/Easter"
+},
+"stats": {
+"population": 843,
+"distanceToMainlandKm": 670,
+"areaSqKm": 47,
+"highestPointMeters": 915
+},
+"logistics": {
+"route": "Kleine, zeer weersafhankelijke chartervluchten vanuit Santiago. Na de landing volgt nog een boottocht van 1,5 uur om het enige dorpje te bereiken.",
+"permitRequired": false,
+"tags": ["Literatuur", "Nationaal Park", "Endemisch"]
+},
+"story": {
+"description": "Dit vulkanische eiland in de Juan Fernández-archipel is de plek waar de Schotse zeeman Alexander Selkirk in 1704 werd achtergelaten, wat Daniel Defoe inspireerde tot het wereldberoemde boek Robinson Crusoe.",
+"floraFauna": "Verhoudingsgewijs heeft dit eiland de hoogste dichtheid aan endemische plantensoorten ter wereld.",
+"history": [
+{ "year": 1574, "event": "Ontdekt door de Spaanse zeevaarder Juan Fernández" },
+{ "year": 1704, "event": "Alexander Selkirk strandt vier jaar en vier maanden op het eiland" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "CLP",
+"connectivity": "Beperkt internet in San Juan Bautista, voornamelijk via satelliet.",
+"souvenirTip": "De lokaal gevangen Juan Fernández-kreeft (een culinaire delicatesse)."
+},
+"hazards": [
+"Tsunami-risico (het dorp werd in 2010 zwaar getroffen)",
+" Zeer steile en gevaarlijke wandelpaden"
+],
+"media": {
+"countryCode": "cl",
+"ambientAudioUrl": "/assets/audio/jungle-birds.mp3",
+"images": {
+"heroDesktop": "placeholder-robinson-hero.jpg",
+"heroMobile": "placeholder-robinson-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "st-kilda",
+"name": "St. Kilda",
+"country": "Verenigd Koninkrijk",
+"region": "Noord-Atlantische Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": 57.8152,
+"lng": -8.5956,
+"timezone": "Europe/London"
+},
+"stats": {
+"population": 0,
+"distanceToMainlandKm": 160,
+"areaSqKm": 8.5,
+"highestPointMeters": 430
+},
+"logistics": {
+"route": "Moeilijk bereikbaar. Enkel met gespecialiseerde boottochten in de zomer vanaf het eiland Harris of Uist (Schotland). Zeer afhankelijk van kalme zee.",
+"permitRequired": false,
+"tags": ["Verlaten Dorp", "Vogelkliffen", "UNESCO"]
+},
+"story": {
+"description": "Een dramatische eilandengroep met de hoogste zeekliffen van het Verenigd Koninkrijk. Duizenden jaren bewoond door een geïsoleerde gemeenschap, totdat het barre bestaan ze dwong in 1930 het eiland permanent te evacueren.",
+"floraFauna": "De grootste kolonie Jan-van-genten ter wereld en de unieke Soay-schapen (een oerschaap dat er al duizenden jaren leeft).",
+"history": [
+{ "year": 1930, "event": "Volledige evacuatie van de laatste 36 bewoners naar het vasteland" },
+{ "year": 1986, "event": "Verkrijgt de status van UNESCO Werelderfgoed" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "GBP",
+"connectivity": "Geen publiek netwerk. Slechts communicatie voor militairen en onderzoekers.",
+"souvenirTip": "Een replica van een traditionele postboot (vroeger lieten ze houten blokken met post in zee drijven, hopend dat het aanspoelde)."
+},
+"hazards": [
+"Extreem ruwe en onvoorspelbare Atlantische deining",
+"Vallend gesteente bij de ruïnes van het verlaten dorp"
+],
+"media": {
+"countryCode": "gb",
+"ambientAudioUrl": "/assets/audio/seagulls-cliffs.mp3",
+"images": {
+"heroDesktop": "placeholder-stkilda-hero.jpg",
+"heroMobile": "placeholder-stkilda-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "clipperton",
+"name": "Clipperton",
+"country": "Frankrijk",
+"region": "Stille Oceaan",
+"themeType": "tropical",
+"geographyType": "Atol",
+"location": {
+"lat": 10.3000,
+"lng": -109.2167,
+"timezone": "Pacific/Pitcairn"
+},
+"stats": {
+"population": 0,
+"distanceToMainlandKm": 1080,
+"areaSqKm": 6,
+"highestPointMeters": 29
+},
+"logistics": {
+"route": "Geen vliegveld of haven. Uitsluitend bereikbaar via peperdure wetenschappelijke of zendamateur-expedities per schip vanuit Mexico.",
+"permitRequired": true,
+"tags": ["Onbewoond Atol", "Krabbenplaag", "Gesloten Lagune"]
+},
+"story": {
+"description": "Een piepklein, ringvormig koraalatol dat berucht is om zijn grimmige geschiedenis. In 1914 werd een garnizoen van Mexicaanse militairen en hun families hier 'vergeten', wat leidde tot hongersnood en een tragische strijd om overleving.",
+"floraFauna": "Miljoenen feloranje Clipperton-krabben die het hele eiland bedekken en agressief alles opeten.",
+"history": [
+{ "year": 1705, "event": "Vernoemd naar de Engelse piraat John Clipperton" },
+{ "year": 1917, "event": "Redding van de laatste vrouwelijke overlevenden van het vergeten Mexicaanse garnizoen" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "EUR",
+"connectivity": "Geen enkele connectiviteit.",
+"souvenirTip": "Puur onbereikbaar, behalve voor extreme expedities."
+},
+"hazards": [
+"De afgesloten lagune is giftig door rottend organisch materiaal en bevat geen vissen",
+"Overal scherpe koraalresten en miljoenen krabben"
+],
+"media": {
+"countryCode": "pf",
+"ambientAudioUrl": "/assets/audio/tropical-wind.mp3",
+"images": {
+"heroDesktop": "placeholder-clipperton-hero.jpg",
+"heroMobile": "placeholder-clipperton-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "tokelau",
+"name": "Tokelau",
+"country": "Nieuw-Zeeland",
+"region": "Stille Oceaan",
+"themeType": "tropical",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": -9.2002,
+"lng": -171.8484,
+"timezone": "Pacific/Fakaofo"
+},
+"stats": {
+"population": 1499,
+"distanceToMainlandKm": 500,
+"areaSqKm": 10,
+"highestPointMeters": 5
+},
+"logistics": {
+"route": "Er is geen vliegveld in heel Tokelau. De enige manier om er te komen is een 24 uur durende boottocht vanuit Samoa (Mataliki-veerboot).",
+"permitRequired": true,
+"tags": ["Zonne-energie", "Koraalatollen", "Traditioneel"]
+},
+"story": {
+"description": "Een van de minst bezochte en meest afgelegen naties ter wereld, bestaande uit drie spectaculaire koraalatollen. Tokelau was in 2012 het allereerste territorium ter wereld dat 100% op zonne-energie draaide.",
+"floraFauna": "Levendige koraalriffen, karetschildpadden en pijlstaartroggen.",
+"history": [
+{ "year": 1765, "event": "Europese ontdekking door John Byron" },
+{ "year": 1948, "event": "Het beheer werd officieel overgedragen aan Nieuw-Zeeland" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "NZD",
+"connectivity": "Aangesloten op een onderzeese telecommunicatiekabel, dus internet is verrassend goed voor zo'n geïsoleerde plek.",
+"souvenirTip": "Tokelauaanse postzegels, een belangrijke bron van inkomsten voor de eilanden."
+},
+"hazards": [
+"Extreem kwetsbaar voor tropische cyclonen",
+"Zeer acute dreiging van zeespiegelstijging (hoogste punt is 5 meter)"
+],
+"media": {
+"countryCode": "tk",
+"ambientAudioUrl": "/assets/audio/calm-lagoon.mp3",
+"images": {
+"heroDesktop": "placeholder-tokelau-hero.jpg",
+"heroMobile": "placeholder-tokelau-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "tromelin",
+"name": "Tromelin",
+"country": "Frankrijk",
+"region": "Indische Oceaan",
+"themeType": "tropical",
+"geographyType": "Eiland",
+"location": {
+"lat": -15.8917,
+"lng": 54.5233,
+"timezone": "Indian/Reunion"
+},
+"stats": {
+"population": 3,
+"distanceToMainlandKm": 450,
+"areaSqKm": 0.8,
+"highestPointMeters": 7
+},
+"logistics": {
+"route": "Geen haven. Bevoorrading gebeurt per militair vliegtuig vanuit Réunion dat landt op de ruwe, onverharde zandstrook.",
+"permitRequired": true,
+"tags": ["Zandbank", "Schipbreuk", "Meteorologie"]
+},
+"story": {
+"description": "Een meedogenloze, boomloze zandbank. Het is wereldberoemd om de lugubere schipbreuk van 'De Vergeten Slaven van Tromelin' in 1761, waarbij 80 overlevenden 15 jaar lang vastzaten voordat ze werden gered.",
+"floraFauna": "Belangrijke broedplaats voor groene zeeschildpadden en gemaskerde genten.",
+"history": [
+{ "year": 1722, "event": "Ontdekt door het Franse schip La Diane" },
+{ "year": 1761, "event": "Het slavenschip L'Utile loopt vast op het rif, wat resulteert in de beruchte schipbreuk" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "EUR",
+"connectivity": "Satellietcommunicatie gereserveerd voor het meteorologisch station.",
+"souvenirTip": "Niet te bezoeken door publiek."
+},
+"hazards": [
+"Ligt direct in het pad van zware Indische Oceaan cyclonen",
+"Geen zoetwaterbronnen aanwezig op het hele eiland"
+],
+"media": {
+"countryCode": "tf",
+"ambientAudioUrl": "/assets/audio/wind-ocean.mp3",
+"images": {
+"heroDesktop": "placeholder-tromelin-hero.jpg",
+"heroMobile": "placeholder-tromelin-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "wrangel",
+"name": "Wrangel Island",
+"country": "Rusland",
+"region": "Noordelijke IJszee",
+"themeType": "arctic",
+"geographyType": "Eiland",
+"location": {
+"lat": 71.2333,
+"lng": -179.4167,
+"timezone": "Asia/Anadyr"
+},
+"stats": {
+"population": 0,
+"distanceToMainlandKm": 140,
+"areaSqKm": 7600,
+"highestPointMeters": 1096
+},
+"logistics": {
+"route": "Geen regulier transport. Af en toe worden peperdure arctische expedities (ijsbrekers) toegelaten in de zomer.",
+"permitRequired": true,
+"tags": ["Mammoeten", "IJsberen", "Natuurreservaat"]
+},
+"story": {
+"description": "Een streng beveiligd Russisch natuurreservaat op de scheidslijn van het oostelijk en westelijk halfrond. Het was de allerlaatste plek op aarde waar wolharige mammoeten leefden (tot 2000 v.Chr., lang nadat de piramides waren gebouwd).",
+"floraFauna": "Dit eiland heeft de hoogste dichtheid ijsberenholen ter wereld (ook wel de kraamkamer van het noorden genoemd), walrussen en muskusossen.",
+"history": [
+{ "year": 1820, "event": "Naar het eiland gezocht door Ferdinand von Wrangel, maar niet gevonden" },
+{ "year": 1926, "event": "De Sovjet-Unie vestigt er de eerste permanente nederzetting" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "RUB",
+"connectivity": "Geen internet, behalve militair en wetenschappelijk satellietverkeer.",
+"souvenirTip": "Mammoetslagtanden spoelen hier letterlijk aan op het strand (meenemen is echter streng verboden)."
+},
+"hazards": [
+"Extreem veel, deels agressieve, ijsberen op een relatief klein gebied",
+"Onvoorspelbaar en gevaarlijk kruiend pakijs"
+],
+"media": {
+"countryCode": "ru",
+"ambientAudioUrl": "/assets/audio/howling-ice-wind.mp3",
+"images": {
+"heroDesktop": "placeholder-wrangel-hero.jpg",
+"heroMobile": "placeholder-wrangel-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "bikini-atol",
+"name": "Bikini Atoll",
+"country": "Marshalleilanden",
+"region": "Stille Oceaan",
+"themeType": "tropical",
+"geographyType": "Atol",
+"location": {
+"lat": 11.5833,
+"lng": 165.3833,
+"timezone": "Pacific/Majuro"
+},
+"stats": {
+"population": 0,
+"distanceToMainlandKm": 3400,
+"areaSqKm": 6,
+"highestPointMeters": 3
+},
+"logistics": {
+"route": "Enkel toegankelijk voor zeer gespecialiseerde duikexpedities per boot. Ligt op vele dagen varen vanaf Majuro of Kwajalein.",
+"permitRequired": true,
+"tags": ["Nucleair Verleden", "Scheepswrakken", "Spook-Atol"]
+},
+"story": {
+"description": "Een prachtig atol met een gitzwarte geschiedenis. Tussen 1946 en 1958 vonden hier 23 Amerikaanse nucleaire tests plaats. Het kledingstuk 'bikini' werd naar dit eiland vernoemd vanwege de 'explosieve' impact.",
+"floraFauna": "De lagune wemelt van haaien en marien leven, dat merkwaardig genoeg floreert door de afwezigheid van mensen.",
+"history": [
+{ "year": 1946, "event": "Gedwongen evacuatie van de inheemse bevolking (Operation Crossroads)" },
+{ "year": 1954, "event": "De Castle Bravo-test (de krachtigste Amerikaanse waterstofbom ooit)" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "USD",
+"connectivity": "Geen faciliteiten of connectiviteit op het eiland zelf.",
+"souvenirTip": "Duikers mogen niets aanraken of meenemen uit de stralingszone van de scheepswrakken."
+},
+"hazards": [
+"Reststraling: het is veilig om rond te lopen en te duiken, maar voedsel verbouwen of lokaal water drinken is nog steeds te gevaarlijk",
+"Extreem veel haaien rondom de nucleaire vlootwrakken"
+],
+"media": {
+"countryCode": "mh",
+"ambientAudioUrl": "/assets/audio/underwater-ambient.mp3",
+"images": {
+"heroDesktop": "placeholder-bikini-hero.jpg",
+"heroMobile": "placeholder-bikini-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "diomede",
+"name": "Kleine Diomede",
+"country": "Verenigde Staten",
+"region": "Beringstraat",
+"themeType": "arctic",
+"geographyType": "Eiland",
+"location": {
+"lat": 65.7522,
+"lng": -168.9216,
+"timezone": "America/Nome"
+},
+"stats": {
+"population": 83,
+"distanceToMainlandKm": 40,
+"areaSqKm": 7.3,
+"highestPointMeters": 494
+},
+"logistics": {
+"route": "Bereikbaar per wekelijkse, gesubsidieerde helikoptervlucht vanuit Wales (Alaska), sterk afhankelijk van extreem winterweer.",
+"permitRequired": false,
+"tags": ["Datumgrens", "IJszee", "Geopolitiek"]
+},
+"story": {
+"description": "Dit rotsachtige eiland in Alaska ligt op nog geen vier kilometer van het Russische eiland Grote Diomede. Tussen de twee eilanden loopt zowel de grens tussen VS en Rusland, als de Internationale Datumgrens. Je kijkt hier letterlijk 'naar morgen'.",
+"floraFauna": "Krabben, walrussen, zeehonden en de witte dolfijn (beloega) migreren langs dit eiland.",
+"history": [
+{ "year": 1728, "event": "Ontdekt door de Deens-Russische ontdekkingsreiziger Vitus Bering" },
+{ "year": 1867, "event": "Aangekocht door de VS van Rusland, waarbij de grens exact tussen de twee eilanden werd getrokken" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "USD",
+"connectivity": "Zeer dure en trage satellietverbinding in het kleine stadsgebouw.",
+"souvenirTip": "Prachtig traditioneel Iñupiat ivoorsnijwerk, gemaakt van lokaal gevonden walrus-slagtanden."
+},
+"hazards": [
+"In de winter vriest de oceaan volledig dicht, waardoor isolatie extreem is",
+"IJsberen kunnen in de winter via het ijs het dorp binnenwandelen"
+],
+"media": {
+"countryCode": "us",
+"ambientAudioUrl": "/assets/audio/ice-cracking.mp3",
+"images": {
+"heroDesktop": "placeholder-diomede-hero.jpg",
+"heroMobile": "placeholder-diomede-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "nauru",
+"name": "Nauru",
+"country": "Nauru",
+"region": "Stille Oceaan",
+"themeType": "tropical",
+"geographyType": "Eiland",
+"location": {
+"lat": -0.5228,
+"lng": 166.9315,
+"timezone": "Pacific/Nauru"
+},
+"stats": {
+"population": 12511,
+"distanceToMainlandKm": 3000,
+"areaSqKm": 21,
+"highestPointMeters": 71
+},
+"logistics": {
+"route": "Enkele vluchten per week met Nauru Airlines vanuit Brisbane (Australië) of Nadi (Fiji).",
+"permitRequired": true,
+"tags": ["Kleinste Republiek", "Fosfaatmijn", "Verlaten"]
+},
+"story": {
+"description": "De kleinste eilandrepubliek ter wereld, en een van de minst bezochte. Ooit was Nauru schatrijk door het mijnen van fosfaat (vogelpoep), maar inmiddels is bijna 80% van het binnenland gereduceerd tot een kaal, onbegaanbaar rotslandschap.",
+"floraFauna": "Vrijwel alle oorspronkelijke vegetatie en fauna is vernietigd door de jarenlange mijnbouw.",
+"history": [
+{ "year": 1798, "event": "Brits contact; zij noemden het eerst 'Pleasant Island'" },
+{ "year": 1968, "event": "Nauru wordt een onafhankelijke republiek" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "AUD",
+"connectivity": "Matige tot slechte internetvoorzieningen, sterk afhankelijk van verouderde satellietinfrastructuur.",
+"souvenirTip": "Een stukje ruw fosfaatgesteente (wat het land letterlijk en figuurlijk heeft gebroken)."
+},
+"hazards": [
+"Extreem heet en stoffig door het uitgegraven binnenland",
+"Zeer beperkte toeristische infrastructuur en voorzieningen"
+],
+"media": {
+"countryCode": "nr",
+"ambientAudioUrl": "/assets/audio/tropical-wind.mp3",
+"images": {
+"heroDesktop": "placeholder-nauru-hero.jpg",
+"heroMobile": "placeholder-nauru-mobile.jpg",
+"gallery": []
+}
+}
+}
+]

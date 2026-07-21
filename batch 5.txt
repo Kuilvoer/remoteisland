@@ -1,0 +1,502 @@
+[
+{
+"id": "ogasawara",
+"name": "Ogasawara-eilanden",
+"country": "Japan",
+"region": "Stille Oceaan",
+"themeType": "jungle",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": 27.0952,
+"lng": 142.1869,
+"timezone": "Asia/Tokyo"
+},
+"stats": {
+"population": 2560,
+"distanceToMainlandKm": 1000,
+"areaSqKm": 84,
+"highestPointMeters": 462
+},
+"logistics": {
+"route": "Uitsluitend bereikbaar via de Ogasawara-Maru veerboot vanuit Tokio. De overtocht duurt maar liefst 24 uur.",
+"permitRequired": false,
+"tags": ["Geen Vliegveld", "UNESCO", "Galapagos van het Oosten"]
+},
+"story": {
+"description": "Een subtropische Japanse archipel die nooit met een continent verbonden is geweest. Hierdoor hebben de eilanden een compleet uniek, geïsoleerd ecosysteem ontwikkeld, vol zeldzame planten en dieren.",
+"floraFauna": "De ernstig bedreigde Boninvleerhond en de blauwe Ogasawara-houtduif.",
+"history": [
+{ "year": 1543, "event": "Mogelijke ontdekking door de Spaanse ontdekkingsreiziger Bernardo de la Torre" },
+{ "year": 1876, "event": "Officieel geannexeerd door het Japanse Rijk" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "JPY",
+"connectivity": "Matig. Mobiel internet is beschikbaar in de dorpjes, maar daarbuiten is er nauwelijks dekking.",
+"souvenirTip": "Zout uit Ogasawara of passievrucht-rum."
+},
+"hazards": [
+"Ligt in een actieve tyfoon-zone",
+"Extreem strikte quarantaineregels (om invasieve zaden aan schoenen of kleding te voorkomen)"
+],
+"media": {
+"countryCode": "jp",
+"ambientAudioUrl": "/assets/audio/jungle-birds.mp3",
+"images": {
+"heroDesktop": "placeholder-ogasawara-hero.jpg",
+"heroMobile": "placeholder-ogasawara-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "saint-pierre-miquelon",
+"name": "Saint-Pierre en Miquelon",
+"country": "Frankrijk",
+"region": "Noord-Atlantische Oceaan",
+"themeType": "arctic",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": 46.8852,
+"lng": -56.3159,
+"timezone": "America/Miquelon"
+},
+"stats": {
+"population": 5974,
+"distanceToMainlandKm": 25,
+"areaSqKm": 242,
+"highestPointMeters": 240
+},
+"logistics": {
+"route": "Reguliere vluchten of een korte veerboot vanaf Newfoundland (Canada). Echter ruim 4.000 km vanaf het Franse vasteland.",
+"permitRequired": false,
+"tags": ["Frans Territorium", "Drooglegging", "Visserij"]
+},
+"story": {
+"description": "Een bizar stukje Europa vlak voor de kust van Canada. Het is het laatste overblijfsel van het voormalige koloniale rijk Nieuw-Frankrijk. Tijdens de Amerikaanse drooglegging (Prohibition) was dit dé hub voor dranksmokkel.",
+"floraFauna": "Noordse sterns, zeehonden en bultruggen die hier in het voorjaar passeren.",
+"history": [
+{ "year": 1536, "event": "Opgeëist door de Franse ontdekkingsreiziger Jacques Cartier" },
+{ "year": 1920, "event": "Economische bloeiperiode dankzij de dranksmokkel naar de VS" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "EUR",
+"connectivity": "Uitstekende Europese infrastructuur met snel internet en moderne telecom.",
+"souvenirTip": "Franse wijn, patisserie en kaas (midden in Noord-Amerika)."
+},
+"hazards": [
+"Extreem dichte, plotselinge mist (Grand Banks mist)",
+"Verraderlijke stromingen en winterstormen"
+],
+"media": {
+"countryCode": "pm",
+"ambientAudioUrl": "/assets/audio/harbor-seagulls.mp3",
+"images": {
+"heroDesktop": "placeholder-spm-hero.jpg",
+"heroMobile": "placeholder-spm-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "lord-howe",
+"name": "Lord Howe-eiland",
+"country": "Australië",
+"region": "Stille Oceaan",
+"themeType": "tropical",
+"geographyType": "Eiland",
+"location": {
+"lat": -31.5553,
+"lng": 159.0821,
+"timezone": "Australia/Lord_Howe"
+},
+"stats": {
+"population": 382,
+"distanceToMainlandKm": 600,
+"areaSqKm": 14.5,
+"highestPointMeters": 875
+},
+"logistics": {
+"route": "Korte vluchten (minder dan 2 uur) vanuit Sydney of Brisbane via QantasLink.",
+"permitRequired": false,
+"tags": ["Strikt Quotum", "Zuidelijkste Koraal", "Geen Ontvangst"]
+},
+"story": {
+"description": "Een paradijselijk overblijfsel van een uitgedoofde schildvulkaan. Om de ongerepte natuur te beschermen, hanteert het eiland een spijkerharde limiet van maximaal 400 toeristen tegelijkertijd.",
+"floraFauna": "Het zuidelijkste koraalrif ter wereld en de bedreigde, reusachtige boomkreeft (Lord Howe-wandelende tak).",
+"history": [
+{ "year": 1788, "event": "Ontdekt door het Britse schip HMS Supply" },
+{ "year": 1982, "event": "Ingeschreven als UNESCO Werelderfgoed" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "AUD",
+"connectivity": "Opzettelijk zeer beperkt. Er is geen mobiel bereik op het hele eiland, hoewel Wi-Fi lokaal beschikbaar is.",
+"souvenirTip": "De Kentia-palm, een iconische kamerplant die wereldwijd geëxporteerd werd vanaf dit eiland."
+},
+"hazards": [
+"Strenge natuurbeheer-regels; het onbedoeld introduceren van zaden of insecten is strafbaar",
+"Fietsen is het hoofdvervoermiddel, pas op voor loslopend wild op de smalle paden"
+],
+"media": {
+"countryCode": "au",
+"ambientAudioUrl": "/assets/audio/tropical-birds.mp3",
+"images": {
+"heroDesktop": "placeholder-lordhowe-hero.jpg",
+"heroMobile": "placeholder-lordhowe-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "henderson-island",
+"name": "Henderson Island",
+"country": "Verenigd Koninkrijk",
+"region": "Stille Oceaan",
+"themeType": "tropical",
+"geographyType": "Atol",
+"location": {
+"lat": -24.3468,
+"lng": -128.3243,
+"timezone": "Pacific/Pitcairn"
+},
+"stats": {
+"population": 0,
+"distanceToMainlandKm": 5000,
+"areaSqKm": 37.3,
+"highestPointMeters": 33
+},
+"logistics": {
+"route": "Alleen te bereiken als side-trip tijdens een expeditie naar het nabijgelegen Pitcairn. Aanmeren is riskant door het koraalrif.",
+"permitRequired": true,
+"tags": ["Opgeheven Atol", "Plasticvervuiling", "Onbewoond"]
+},
+"story": {
+"description": "Een van 's werelds best bewaarde voorbeelden van een omhooggeheven koraalatol. Tragisch genoeg staat het tegenwoordig wereldwijd bekend omdat oceaanstromingen hier onvoorstelbare hoeveelheden plastic afval op de ongerepte stranden deponeren.",
+"floraFauna": "De loopvogel Hendersonral en de Hendersonlori (een felgekleurde papegaai).",
+"history": [
+{ "year": 1606, "event": "Ontdekt door de Portugese zeevaarder Pedro Fernandes de Queirós" },
+{ "year": 2015, "event": "Onderzoekers onthullen de gigantische schaal van de aangespoelde plasticvervuiling" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "GBP",
+"connectivity": "Volledig onbewoond, dus 0% connectiviteit.",
+"souvenirTip": "Je mag hier niet aan land komen om dingen mee te nemen. (Als je iets meeneemt, laat het dan plastic afval zijn)."
+},
+"hazards": [
+"Extreem scherp, verweerd kalksteen (makatea) dat wandelen vrijwel onmogelijk maakt",
+"Sterke, onvoorspelbare branding op het omringende koraalrif"
+],
+"media": {
+"countryCode": "pn",
+"ambientAudioUrl": "/assets/audio/waves-crashing.mp3",
+"images": {
+"heroDesktop": "placeholder-henderson-hero.jpg",
+"heroMobile": "placeholder-henderson-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "attu",
+"name": "Attu",
+"country": "Verenigde Staten",
+"region": "Beringzee",
+"themeType": "arctic",
+"geographyType": "Eiland",
+"location": {
+"lat": 52.8400,
+"lng": 173.1900,
+"timezone": "America/Adak"
+},
+"stats": {
+"population": 0,
+"distanceToMainlandKm": 1700,
+"areaSqKm": 893,
+"highestPointMeters": 898
+},
+"logistics": {
+"route": "Geen civiel vervoer. Het is het uiterste eiland van de Aleoeten-keten in Alaska en enkel bereikbaar voor gecharterde onderzoeksschepen.",
+"permitRequired": true,
+"tags": ["Aleoeten", "Spookeiland", "WOII Slagveld"]
+},
+"story": {
+"description": "Het meest westelijke punt van de Verenigde Staten, zo ver naar het westen dat het eigenlijk op het oostelijk halfrond ligt. Sinds de Amerikaanse Kustwacht in 2010 vertrok, is het eiland een koud, onbewoond spookeiland vol verroeste oorlogsresten.",
+"floraFauna": "Massale hoeveelheden zeevogels (vooral unieke Aziatische dwaalgasten) en fjorden vol kelpbossen.",
+"history": [
+{ "year": 1942, "event": "Bezet door Japanse troepen (enige WOII landslag op Amerikaans grondgebied)" },
+{ "year": 2010, "event": "Sluiting van het Loran-station; eiland wordt officieel onbewoond" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "USD",
+"connectivity": "Geen voorzieningen of internet aanwezig.",
+"souvenirTip": "Vogelspotters nemen alleen foto's mee van zeldzame Aziatische vogels die uit koers zijn geraakt."
+},
+"hazards": [
+"Blindgangers en explosieven uit de Tweede Wereldoorlog",
+"Extreem grimmig weer: sneeuwstormen, zware regen en mist zijn constant"
+],
+"media": {
+"countryCode": "us",
+"ambientAudioUrl": "/assets/audio/cold-howling-wind.mp3",
+"images": {
+"heroDesktop": "placeholder-attu-hero.jpg",
+"heroMobile": "placeholder-attu-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "zuidelijke-sandwicheilanden",
+"name": "Zuidelijke Sandwicheilanden",
+"country": "Verenigd Koninkrijk",
+"region": "Zuidelijke Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": -57.7788,
+"lng": -26.4385,
+"timezone": "Atlantic/South_Georgia"
+},
+"stats": {
+"population": 0,
+"distanceToMainlandKm": 2700,
+"areaSqKm": 310,
+"highestPointMeters": 1370
+},
+"logistics": {
+"route": "Geen faciliteiten. Af en toe stopt er een ijsversterkt expeditieschip (vanuit Argentinië of Zuid-Georgia) dat waaghalzen kort aan land laat gaan per zodiac.",
+"permitRequired": true,
+"tags": ["Actief Vulkanisch", "Antarctisch", "Geïsoleerde Boog"]
+},
+"story": {
+"description": "Een bloedstollend onherbergzame boog van elf actieve, deels met ijs bedekte vulkanen. De eilanden steken steil omhoog uit de zuidelijke oceaan en bieden een van de meest woeste aanzichten ter wereld.",
+"floraFauna": "Thuisbasis van miljoenen pinguïns (waaronder kinbandpinguïns) die broeden op warme vulkanische as.",
+"history": [
+{ "year": 1775, "event": "Ontdekt door James Cook" },
+{ "year": 1956, "event": "Argentinië bouwde stiekem een kleine marinebasis op Thule (verwijderd in 1982)" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "GBP",
+"connectivity": "Totaal afgesloten van de wereld.",
+"souvenirTip": "Zelfs een kleine vulkanische rots meenemen is verboden i.v.m. de Antarctische verdragen."
+},
+"hazards": [
+"Actieve vulkanen onder zware ijskappen en gletsjers",
+"Extreme ijsbergen, katabatische stormen en agressieve zeestromingen"
+],
+"media": {
+"countryCode": "gs",
+"ambientAudioUrl": "/assets/audio/penguin-colony.mp3",
+"images": {
+"heroDesktop": "placeholder-sandwich-hero.jpg",
+"heroMobile": "placeholder-sandwich-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "juan-de-nova",
+"name": "Juan de Nova",
+"country": "Frankrijk",
+"region": "Indische Oceaan",
+"themeType": "tropical",
+"geographyType": "Eiland",
+"location": {
+"lat": -17.0525,
+"lng": 42.7214,
+"timezone": "Indian/Antananarivo"
+},
+"stats": {
+"population": 15,
+"distanceToMainlandKm": 140,
+"areaSqKm": 4.4,
+"highestPointMeters": 10
+},
+"logistics": {
+"route": "Onbereikbaar voor publiek. Bevoorrading gebeurt per militair transportvliegtuig (Transall) via de onverharde landingsbaan vanuit La Réunion.",
+"permitRequired": true,
+"tags": ["Scattered Islands", "Vogelparadijs", "Geclaimd door Madagaskar"]
+},
+"story": {
+"description": "Een minuscuul, tropisch Frans eilandje in de Straat van Mozambique. Het behoort tot de 'Îles Éparses' (Verspreide Eilanden) en wordt bemand door een klein detachement van het Franse Vreemdelingenlegioen.",
+"floraFauna": "De grootste broedkolonie van roetsterns in de Indische Oceaan (meer dan 2 miljoen vogels).",
+"history": [
+{ "year": 1501, "event": "Vernoemd naar de Spaanse zeevaarder João da Nova" },
+{ "year": 1960, "event": "Madagaskar claimt de soevereiniteit, maar Frankrijk behoudt het eiland" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "EUR",
+"connectivity": "Satellietverbinding exclusief voor de weerkundigen en militairen.",
+"souvenirTip": "Guano (vogelpoep), wat hier vroeger intensief werd gedolven en de overblijfselen van de mijninfrastructuur achterliet."
+},
+"hazards": [
+"Piraterij in de omliggende wateren van het kanaal",
+"Malaria is (historisch) een serieus risico geweest op dit vochtige atol"
+],
+"media": {
+"countryCode": "tf",
+"ambientAudioUrl": "/assets/audio/tropical-military.mp3",
+"images": {
+"heroDesktop": "placeholder-juandenova-hero.jpg",
+"heroMobile": "placeholder-juandenova-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "bjorneya",
+"name": "Beren-eiland (Bjørnøya)",
+"country": "Noorwegen",
+"region": "Barentszzee",
+"themeType": "arctic",
+"geographyType": "Eiland",
+"location": {
+"lat": 74.4367,
+"lng": 19.0494,
+"timezone": "Arctic/Longyearbyen"
+},
+"stats": {
+"population": 9,
+"distanceToMainlandKm": 400,
+"areaSqKm": 178,
+"highestPointMeters": 536
+},
+"logistics": {
+"route": "Geen commerciële vluchten. Bevoorrading door boten van de Noorse Kustwacht of helikopters voor de kleine crew van het meteorologisch station.",
+"permitRequired": true,
+"tags": ["Mistig", "Meteo-station", "Svalbard Archipel"]
+},
+"story": {
+"description": "Dit ruige, geïsoleerde eiland markeert de zuidelijke grens van de Svalbard-archipel. Het eiland is berucht om de uitzonderlijk dichte mist die hier heerst door het samenkomen van koude poollucht en warme oceaanstromen.",
+"floraFauna": "Massale kliffen vol zeevogels. Ondanks de naam komen er nauwelijks nog ijsberen voor (het zee-ijs reikt vaak niet meer zover zuidelijk).",
+"history": [
+{ "year": 1596, "event": "Willem Barentsz ontdekt het eiland en vecht er met een ijsbeer" },
+{ "year": 1920, "event": "Komt officieel onder Noorse soevereiniteit (Spitsbergenverdrag)" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "NOK",
+"connectivity": "Satelliet en amateurradio-verbinding voor de 9 roulerende medewerkers.",
+"souvenirTip": "De legendarische (en schaarse) amateurradio-stempel van het Bjørnøya station."
+},
+"hazards": [
+"De steile kliffen en constant natte, gladde en koude omstandigheden",
+"Isolatie: een schip sturen voor reddingsacties kan dagen duren"
+],
+"media": {
+"countryCode": "sj",
+"ambientAudioUrl": "/assets/audio/arctic-wind.mp3",
+"images": {
+"heroDesktop": "placeholder-bjornoya-hero.jpg",
+"heroMobile": "placeholder-bjornoya-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "aucklandeilanden",
+"name": "Aucklandeilanden",
+"country": "Nieuw-Zeeland",
+"region": "Zuidelijke Oceaan",
+"themeType": "arctic",
+"geographyType": "Eilandengroep",
+"location": {
+"lat": -50.6908,
+"lng": 166.1136,
+"timezone": "Pacific/Auckland"
+},
+"stats": {
+"population": 0,
+"distanceToMainlandKm": 465,
+"areaSqKm": 625,
+"highestPointMeters": 659
+},
+"logistics": {
+"route": "Onderdeel van zeer prijzige, speciale sub-Antarctische expeditiecruises vanuit Invercargill (Nieuw-Zeeland).",
+"permitRequired": true,
+"tags": ["Scheepskerkhof", "Sub-Antarctisch", "Ruig Landschap"]
+},
+"story": {
+"description": "Een woeste, vulkanische eilandengroep die de bijnaam 'Eilanden van Wanhoop' draagt. Het staat bekend om zijn onherbergzame fjorden, brute scheepswrakken en een tragisch mislukte poging tot kolonisatie in de 19e eeuw.",
+"floraFauna": "Gigantische rätäl-bossen en een cruciaal broedgebied voor de Nieuw-Zeelandse zeeleeuw en geeloogpinguïns.",
+"history": [
+{ "year": 1806, "event": "Ontdekt door walvisjager Abraham Bristow" },
+{ "year": 1849, "event": "Oprichting van de Hardwicke-nederzetting, die binnen drie jaar compleet faalde en verlaten werd" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "NZD",
+"connectivity": "Totaal geen communicatie, behalve de radio's van expeditieschepen.",
+"souvenirTip": "Puur beschermd natuurreservaat. Alles, zelfs een leeg schelpje, moet achterblijven."
+},
+"hazards": [
+"Ijskoude moerasachtige modder ('peat') waarin je kunt wegzakken",
+"Woeste 'Furious Fifties' winden die boten op de rotsen kunnen slaan"
+],
+"media": {
+"countryCode": "nz",
+"ambientAudioUrl": "/assets/audio/wind-ocean.mp3",
+"images": {
+"heroDesktop": "placeholder-auckland-hero.jpg",
+"heroMobile": "placeholder-auckland-mobile.jpg",
+"gallery": []
+}
+}
+},
+{
+"id": "tofua",
+"name": "Tofua",
+"country": "Tonga",
+"region": "Stille Oceaan",
+"themeType": "volcanic",
+"geographyType": "Eiland",
+"location": {
+"lat": -19.7483,
+"lng": -175.0650,
+"timezone": "Pacific/Tongatapu"
+},
+"stats": {
+"population": 0,
+"distanceToMainlandKm": 160,
+"areaSqKm": 55.6,
+"highestPointMeters": 507
+},
+"logistics": {
+"route": "Geen transport. Alleen avonturiers kunnen lokale Tongaanse vissers huren voor een heftige oversteek om hen op de steile kliffen af te zetten.",
+"permitRequired": false,
+"tags": ["Actieve Vulkaan", "Caldera", "Mutiny on the Bounty"]
+},
+"story": {
+"description": "Een perfect cirkelvormig vulkaaneiland met een rokende krater (Lofia) en een zoetwatermeer in het midden. Het staat in de geschiedenisboeken als de eerste plek waar Kapitein Bligh aan land ging nadat hij tijdens de Muiterij op de Bounty overboord was gezet.",
+"floraFauna": "Wilde varkens, kokosnootbomen en tropische vegetatie die floreert op de vruchtbare, vulkanische as.",
+"history": [
+{ "year": 1789, "event": "Kapitein Bligh landt hier in zijn reddingssloep en verliest kwartiermeester John Norton tijdens een conflict met bewoners" },
+{ "year": 2008, "event": "De Zwitser Xavier Rosset overleefde hier 300 dagen in zijn eentje met een machete als experiment" }
+]
+},
+"economyAndCulture": {
+"currencyCode": "TOP",
+"connectivity": "Geen. Er zijn wel af en toe kava-boeren aanwezig die enkele weken op het eiland verblijven.",
+"souvenirTip": "Kava-wortels, die in de vruchtbare caldera verbouwd worden."
+},
+"hazards": [
+"De actieve Lofia-krater barst regelmatig uit en stoot giftige gassen uit",
+"Er is nergens een strand; je moet direct vanaf een vissersboot op scherpe rotsen springen"
+],
+"media": {
+"countryCode": "to",
+"ambientAudioUrl": "/assets/audio/jungle-waterfall.mp3",
+"images": {
+"heroDesktop": "placeholder-tofua-hero.jpg",
+"heroMobile": "placeholder-tofua-mobile.jpg",
+"gallery": []
+}
+}
+}
+]
