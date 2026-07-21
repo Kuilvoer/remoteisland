@@ -34,8 +34,8 @@ export default function GlobePage({ islands, p, onSelectIsland, onClose }) {
   return (
     <div className="absolute inset-0 z-30 flex items-center justify-center fade-in bg-black">
       
-      <div className="absolute top-32 left-8 z-40 pointer-events-none">
-        <h1 className="text-4xl font-black uppercase tracking-tighter text-white drop-shadow-2xl">
+      <div className="absolute bottom-12 md:bottom-auto md:top-32 left-4 md:left-8 z-40 pointer-events-none max-w-[80vw]">
+        <h1 className="text-3xl md:text-4xl font-black uppercase tracking-tighter text-white drop-shadow-2xl">
           Interactieve Wereldbol
         </h1>
         <p className="text-white/70 font-medium mt-2">Draai de bol en klik op een pin om een eiland te verkennen.</p>
