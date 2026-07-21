@@ -272,7 +272,7 @@ function InnerApp() {
 
         {/* Centered Dock Area (Only in Card Mode) */}
         {!activeDetailIsland && !isGlobeView && viewMode === 'card' && (
-          <div className="absolute bottom-8 md:bottom-16 lg:bottom-24 w-full flex justify-center items-center z-20 pointer-events-none fade-in">
+          <div className="absolute bottom-8 w-full flex justify-center items-center z-20 pointer-events-none fade-in">
             <div className="flex items-center gap-4 pointer-events-auto">
               <button onClick={handlePrev} className="w-14 h-14 rounded-full border-4 flex items-center justify-center shrink-0 transition-transform hover:scale-110" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
                 <i className="fa-solid fa-chevron-left text-xl"></i>
