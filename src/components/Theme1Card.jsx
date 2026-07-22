@@ -31,7 +31,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
 
       {/* Info Card */}
       <div 
-        className={`w-full md:w-1/2 rounded-[40px] p-8 md:p-10 relative transition-all duration-700 border-4 flex flex-col justify-between h-full`}
+        className={`w-full md:w-1/2 rounded-[40px] p-8 md:p-10 relative transition-all duration-700 border-4 flex flex-col justify-between h-[480px] md:h-full`}
         style={{ backgroundColor: p.card, color: p.accent, boxShadow: `10px 10px 0px ${p.accent}`, borderColor: p.accent }}
       >
         
