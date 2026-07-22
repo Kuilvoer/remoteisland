@@ -262,7 +262,7 @@ function InnerApp() {
             !isGlobeView && (
               <div className="w-full h-full flex flex-col pt-4 px-6 relative">
                 {viewMode === 'card' && (
-                  <div className="flex-1 w-full flex items-center justify-center pb-40">
+                  <div className="flex-1 w-full flex items-center justify-center pb-52">
                     <Theme1Card island={activeIsland} p={p} onReadMore={(island) => setActiveDetailIsland(island)} />
                   </div>
                 )}
@@ -280,7 +280,7 @@ function InnerApp() {
                 <i className="fa-solid fa-chevron-left text-xl"></i>
               </button>
               
-              <div className="w-full max-w-[95vw] md:max-w-4xl rounded-[40px] px-8 border-4 shadow-2xl flex gap-6 justify-center items-center transition-colors duration-700 h-[140px] backdrop-blur-md" style={{ backgroundColor: p.card, borderColor: p.accent }}>
+              <div className="w-full max-w-[95vw] md:max-w-4xl rounded-[40px] px-8 border-4 shadow-2xl flex gap-8 justify-center items-center transition-colors duration-700 h-[140px] backdrop-blur-md" style={{ backgroundColor: p.card, borderColor: p.accent }}>
                 {visibleIslands.map((island, index) => {
                   const isActive = island.id === activeIsland.id;
                   const distance = Math.abs(index - 2);

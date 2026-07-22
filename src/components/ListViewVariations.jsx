@@ -73,12 +73,27 @@ export function ListViewSplit({ islands, onSelect, activeIsland, setActiveIsland
         {islands.map(island => (
           <div 
             key={island.id}
-            onClick={() => setActiveIsland(island)}
-            className={`p-6 border-b-4 cursor-pointer transition-colors ${activePreview?.id === island.id ? 'bg-opacity-20' : 'hover:bg-opacity-5'}`}
+            onClick={() => {
+              setActiveIsland(island);
+              // On mobile, clicking the item directly opens the detail page
+              if (window.innerWidth < 768) {
+                onSelect(island);
+              }
+            }}
+            className={`p-6 border-b-4 cursor-pointer transition-colors flex justify-between items-center ${activePreview?.id === island.id ? 'bg-opacity-20' : 'hover:bg-opacity-5'}`}
             style={{ borderColor: pTheme, backgroundColor: activePreview?.id === island.id ? pBg : 'transparent' }}
           >
-            <h3 className="text-xl font-black uppercase tracking-tighter" style={{ color: pTheme }}>{island.name}</h3>
-            <p className="text-xs font-bold uppercase opacity-60 mt-1" style={{ color: pTheme }}>{island.region}</p>
+            <div>
+              <h3 className="text-xl font-black uppercase tracking-tighter" style={{ color: pTheme }}>{island.name}</h3>
+              <p className="text-xs font-bold uppercase opacity-60 mt-1" style={{ color: pTheme }}>{island.region}</p>
+            </div>
+            <button 
+              className="w-8 h-8 rounded-full border-2 flex items-center justify-center md:hidden shrink-0" 
+              style={{ borderColor: pTheme, color: pTheme }}
+              onClick={(e) => { e.stopPropagation(); onSelect(island); }}
+            >
+              <i className="fa-solid fa-chevron-right text-xs"></i>
+            </button>
           </div>
         ))}
       </div>
