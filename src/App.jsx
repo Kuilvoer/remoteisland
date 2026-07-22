@@ -152,20 +152,32 @@ function InnerApp() {
       )}
 
       {/* Minimal Header */}
-      <header className="w-full px-8 py-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 z-50 relative pointer-events-none">
+      <header className="w-full px-6 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 z-50 relative pointer-events-none">
         
-        <div className="flex items-center gap-4 shrink-0 cursor-pointer pointer-events-auto" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); }}>
-          <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm" 
-               style={{ borderColor: isGlobeView ? '#00FF41' : p.accent, color: isGlobeView ? '#00FF41' : p.accent }}>
-            <i className="fa-solid fa-earth-oceania"></i>
+        <div className="w-full md:w-auto flex justify-between items-center pointer-events-auto">
+          <div className="flex items-center gap-4 shrink-0 cursor-pointer" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}>
+            <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm" 
+                 style={{ borderColor: isGlobeView ? '#00FF41' : p.accent, color: isGlobeView ? '#00FF41' : p.accent }}>
+              <i className="fa-solid fa-earth-oceania"></i>
+            </div>
+            <h1 className="text-xl md:text-3xl font-black uppercase tracking-tighter transition-colors duration-700 drop-shadow-md" 
+                style={{ color: isGlobeView ? '#00FF41' : p.accent }}>
+              IslandExplorer
+            </h1>
           </div>
-          <h1 className="text-xl md:text-3xl font-black uppercase tracking-tighter transition-colors duration-700 drop-shadow-md" 
-              style={{ color: isGlobeView ? '#00FF41' : p.accent }}>
-            IslandExplorer
-          </h1>
+
+          <button 
+            className="md:hidden w-12 h-12 flex flex-col justify-center items-center gap-1.5 rounded-full border-4 bg-white/90 backdrop-blur-sm"
+            style={{ borderColor: p.accent }}
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: p.accent }}></span>
+            <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: p.accent }}></span>
+            <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: p.accent }}></span>
+          </button>
         </div>
 
-        <div className="shrink-0 flex gap-4 items-center pointer-events-auto flex-wrap min-h-[56px]">
+        <div className={`${isMobileMenuOpen ? 'flex' : 'hidden'} md:flex shrink-0 flex-col md:flex-row gap-4 items-end md:items-center pointer-events-auto flex-wrap min-h-[56px] w-full md:w-auto`}>
            {/* Card / List Toggle */}
            {!activeDetailIsland && !isGlobeView && (
              <div className="flex bg-white/90 backdrop-blur-sm rounded-full p-1 border-4" style={{ borderColor: p.accent }}>

@@ -17,24 +17,29 @@ export default function DetailPage({ island, p, onBack }) {
       </button>
 
       {/* Hero Section */}
-      <div 
-        className={`relative w-full h-[40vh] md:h-[60vh] rounded-[40px] overflow-hidden border-4 mb-12 z-10`}
-        style={{ borderColor: p.accent, boxShadow: `12px 12px 0px ${p.accent}` }}
-      >
-        <img src={island.media?.images?.heroDesktop || `https://flagcdn.com/w320/${island.media?.countryCode}.png`} className="w-full h-full object-cover" />
+      <div className="flex flex-col mb-12 z-10">
         <div 
-          className="absolute bottom-6 left-6 md:bottom-10 md:left-10 px-8 py-4 rounded-3xl border-4 backdrop-blur-md shadow-2xl"
+          className={`relative w-full h-[30vh] md:h-[50vh] rounded-[40px] overflow-hidden border-4 mb-6`}
+          style={{ borderColor: p.accent, boxShadow: `12px 12px 0px ${p.accent}` }}
+        >
+          <img src={island.media?.images?.heroDesktop || `https://flagcdn.com/w320/${island.media?.countryCode}.png`} className="w-full h-full object-cover" />
+        </div>
+        
+        <div 
+          className="w-full px-6 md:px-10 py-6 md:py-8 rounded-[40px] border-4 shadow-xl relative"
           style={{ backgroundColor: `${p.card}dd`, borderColor: p.accent }}
         >
           <div className="flex items-center gap-4 mb-2">
             <img src={`https://flagcdn.com/w320/${island.media?.countryCode}.png`} className="w-8 h-8 rounded-full border-2" style={{ borderColor: p.accent }} />
-            <span className="font-bold text-sm md:text-base uppercase tracking-widest" style={{ color: p.accent }}>{island.country}</span>
+            {island.name !== island.country && (
+              <span className="font-bold text-sm md:text-base uppercase tracking-widest" style={{ color: p.accent }}>{island.country}</span>
+            )}
           </div>
-          <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter drop-shadow-lg" style={{ color: p.accent }}>{island.name}</h1>
+          <h1 className="text-4xl md:text-7xl font-black uppercase tracking-tighter drop-shadow-lg break-words hyphens-auto" style={{ color: p.accent }}>{island.name}</h1>
           {island.logistics?.tags && island.logistics.tags.length > 0 && (
             <div className="flex flex-wrap gap-2 mt-4">
               {island.logistics.tags.map((tag, idx) => (
-                <span key={idx} className="px-3 py-1 rounded-full border-2 text-[10px] font-black uppercase tracking-widest bg-white/40 backdrop-blur-sm shadow-sm" style={{ borderColor: p.accent, color: p.accent }}>
+                <span key={idx} className="px-3 py-1 rounded-full border-2 text-[10px] font-black uppercase tracking-widest bg-white/60 backdrop-blur-sm shadow-sm" style={{ borderColor: p.accent, color: p.accent }}>
                   {tag}
                 </span>
               ))}

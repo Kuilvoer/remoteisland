@@ -67,12 +67,12 @@ export default function Theme1Card({ island, p, onReadMore }) {
             {island.country}
           </p>
 
-          <div className="grid grid-cols-2 gap-4 lg:gap-6 mb-6">
-            <div className="p-4 lg:p-5 rounded-2xl border-2" style={{ backgroundColor: 'rgba(255,255,255,0.6)', borderColor: p.accent }}>
+          <div className="flex gap-4 lg:gap-6 mb-6 w-full">
+            <div className="flex-1 p-4 lg:p-5 rounded-2xl border-2 overflow-hidden" style={{ backgroundColor: 'rgba(255,255,255,0.6)', borderColor: p.accent }}>
               <p className="text-xs lg:text-sm font-black opacity-70 uppercase tracking-widest mb-1">Inwoners</p>
-              <p className="text-xl lg:text-3xl font-black">{island.stats?.population === 0 ? 'Onbewoond' : island.stats?.population.toLocaleString('nl-NL')}</p>
+              <p className="text-lg lg:text-3xl font-black break-words hyphens-auto">{island.stats?.population === 0 ? 'Onbewoond' : island.stats?.population.toLocaleString('nl-NL')}</p>
             </div>
-            <div className="p-4 lg:p-5 rounded-2xl border-2" style={{ backgroundColor: 'rgba(255,255,255,0.6)', borderColor: p.accent }}>
+            <div className="flex-1 p-4 lg:p-5 rounded-2xl border-2 overflow-hidden" style={{ backgroundColor: 'rgba(255,255,255,0.6)', borderColor: p.accent }}>
               <p className="text-xs lg:text-sm font-black opacity-70 uppercase tracking-widest mb-1">Afstand</p>
               <p className="text-xl lg:text-3xl font-black">{island.stats?.distanceToMainlandKm.toLocaleString('nl-NL')} <span className="text-sm">km</span></p>
             </div>
