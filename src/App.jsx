@@ -54,6 +54,7 @@ function InnerApp() {
   const [isGlobeView, setIsGlobeView] = useState(false);
   const [viewMode, setViewMode] = useState('card'); // 'card', 'list1', 'list2', 'list3', 'list4'
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
   // Preload all images on startup so they load instantly
   useEffect(() => {
@@ -225,7 +226,7 @@ function InnerApp() {
       </header>
 
       {/* Breadcrumbs */}
-      <div className="w-full h-8 px-8 pb-4 z-40 relative pointer-events-auto flex items-center gap-2 text-xs font-bold uppercase tracking-widest opacity-80 shrink-0" style={{ color: isGlobeView ? '#fff' : p.accent }}>
+      <div className="w-full h-8 px-8 pb-4 z-40 relative pointer-events-auto hidden md:flex items-center gap-2 text-xs font-bold uppercase tracking-widest opacity-80 shrink-0" style={{ color: isGlobeView ? '#fff' : p.accent }}>
          <span className="cursor-pointer hover:underline" onClick={() => { setViewMode('card'); setActiveDetailIsland(null); }}>Start</span>
          {showFavoritesOnly && <span>/ Favorieten</span>}
          {viewMode === 'list2' && <span>/ Lijstweergave</span>}
@@ -259,17 +260,6 @@ function InnerApp() {
           )}
         </SwipeableMain>
 
-        {/* Floating Action Button (Mobile Only) for Globe */}
-        {!isGlobeView && !activeDetailIsland && (
-          <button 
-            onClick={() => setIsGlobeView(true)}
-            className="md:hidden fixed bottom-6 right-6 w-16 h-16 rounded-full border-4 shadow-2xl flex items-center justify-center z-50 transition-transform hover:scale-110 active:scale-95"
-            style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}
-          >
-            <i className="fa-solid fa-globe text-2xl"></i>
-          </button>
-        )}
-
         {/* Centered Dock Area (Only in Card Mode) */}
         {!activeDetailIsland && !isGlobeView && viewMode === 'card' && (
           <div className="absolute bottom-8 w-full flex justify-center items-center z-20 pointer-events-none fade-in">
@@ -296,7 +286,7 @@ function InnerApp() {
                           </div>
                         )}
                       </div>
-                      <span className="text-[9px] md:text-[10px] font-black mt-3 uppercase tracking-widest transition-colors duration-700 drop-shadow-md text-center w-full leading-tight line-clamp-2" style={{ color: p.accent }}>{island.name}</span>
+                      <span className="hidden md:block text-[9px] md:text-[10px] font-black mt-3 uppercase tracking-widest transition-colors duration-700 drop-shadow-md text-center w-full leading-tight line-clamp-2" style={{ color: p.accent }}>{island.name}</span>
                     </div>
                   );
                 })}
