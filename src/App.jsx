@@ -55,22 +55,6 @@ function InnerApp() {
   const [viewMode, setViewMode] = useState('card'); // 'card', 'list1', 'list2', 'list3', 'list4'
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isHeaderHidden, setIsHeaderHidden] = useState(false);
-  const lastScrollY = useRef(0);
-
-  const handleDetailScroll = (e) => {
-    if (window.innerWidth >= 768) {
-      if (isHeaderHidden) setIsHeaderHidden(false);
-      return;
-    }
-    const currentScrollY = e.target.scrollTop;
-    if (currentScrollY > lastScrollY.current + 10 && currentScrollY > 100) {
-      if (!isHeaderHidden) setIsHeaderHidden(true);
-    } else if (currentScrollY < lastScrollY.current - 10 || currentScrollY < 50) {
-      if (isHeaderHidden) setIsHeaderHidden(false);
-    }
-    lastScrollY.current = currentScrollY;
-  };
   
   // Preload all images on startup so they load instantly
   useEffect(() => {
@@ -168,10 +152,10 @@ function InnerApp() {
       )}
 
       {/* Minimal Header */}
-      <header className={`w-full px-6 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 z-50 pointer-events-none transition-all duration-500 ${activeDetailIsland && isHeaderHidden ? "md:relative absolute -translate-y-full opacity-0 pointer-events-none" : "relative translate-y-0 opacity-100"}`}>
+      <header className="w-full px-6 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 z-50 relative pointer-events-none">
         
         <div className="w-full md:w-auto flex justify-between items-center pointer-events-auto">
-          <div className="flex items-center gap-4 shrink-0 cursor-pointer" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); setIsHeaderHidden(false); }}>
+          <div className="flex items-center gap-4 shrink-0 cursor-pointer" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}>
             <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm" 
                  style={{ borderColor: isGlobeView ? '#00FF41' : p.accent, color: isGlobeView ? '#00FF41' : p.accent }}>
               <i className="fa-solid fa-earth-oceania"></i>
@@ -271,8 +255,8 @@ function InnerApp() {
           handlePrev={handlePrev}
         >
           {activeDetailIsland ? (
-            <div className="absolute inset-0 overflow-y-auto pt-4 pb-20 transition-all duration-500" onScroll={handleDetailScroll} style={{ paddingTop: (activeDetailIsland && isHeaderHidden && window.innerWidth < 768) ? "0px" : undefined }}>
-              <DetailPage island={activeDetailIsland} p={p} onBack={() => { setActiveDetailIsland(null); setIsHeaderHidden(false); }} />
+            <div className="absolute inset-0 overflow-y-auto pt-4 pb-20">
+              <DetailPage island={activeDetailIsland} p={p} onBack={() => setActiveDetailIsland(null)} />
             </div>
           ) : (
             !isGlobeView && (
